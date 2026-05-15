@@ -55,9 +55,23 @@ const orgLd = {
   description: SITE.defaultDescription,
 };
 
+// GitHub Pages cannot send custom response headers, so the security policy
+// is delivered via meta tags here as a best-effort substitute. Note: HSTS
+// and frame-ancestors/X-Frame-Options cannot be set this way — GitHub Pages
+// already enforces HTTPS for the custom domain, and the site embeds no
+// third-party content.
+const CSP =
+  "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; " +
+  "script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; " +
+  "base-uri 'self'; form-action 'self'";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta httpEquiv="Content-Security-Policy" content={CSP} />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+      </head>
       <body className="flex min-h-screen flex-col">
         <JsonLd data={orgLd} />
         <Nav />

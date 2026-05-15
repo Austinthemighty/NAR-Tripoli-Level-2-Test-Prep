@@ -22,54 +22,36 @@ npm run typecheck
 npm run build             # produces ./out — the static site
 ```
 
-## Deploy
+## Deploy — GitHub Pages (automated)
 
-Build first: `npm run build`. The site is the contents of `out/`.
-
-### Cloudflare Pages — automated via GitHub Actions (recommended)
-
-[.github/workflows/deploy.yml](.github/workflows/deploy.yml) builds and deploys on every push to `main`, and posts a preview URL on every pull request.
+[.github/workflows/deploy.yml](.github/workflows/deploy.yml) builds, type-checks, and deploys to GitHub Pages on every push to `main`. Pull requests run build + typecheck as a CI gate but do not deploy (GitHub Pages has a single live environment). No secrets or tokens required — it uses the built-in `GITHUB_TOKEN`.
 
 **One-time setup:**
 
-1. **Create the Cloudflare Pages project** (only needed once)
-   ```sh
-   npx wrangler pages project create nar-tripoli-l2 --production-branch=main
+1. **Enable Pages with the Actions source.** Repo → Settings → Pages → *Build and deployment* → Source: **GitHub Actions**.
+
+2. **Custom domain DNS.** In the DNS for `austinthemighty.com`, add:
    ```
-   Or in the Cloudflare dashboard → Workers & Pages → Create application → Pages → Connect to Git (or upload assets). The project name must match `CF_PROJECT_NAME` in the workflow (`nar-tripoli-l2`).
+   CNAME   rockettestprep   austinthemighty.github.io
+   ```
+   The [`public/CNAME`](public/CNAME) file already tells GitHub Pages to serve the site at `rockettestprep.austinthemighty.com`.
 
-2. **Create a scoped API token**
-   - https://dash.cloudflare.com/profile/api-tokens → Create Token → Custom token
-   - Permissions: **Account → Cloudflare Pages → Edit**
-   - Account Resources: include your account
-   - Copy the token.
+3. **Enforce HTTPS.** After the domain verifies (Settings → Pages), tick **Enforce HTTPS**. GitHub provisions a Let's Encrypt cert automatically — can take a few minutes to an hour the first time.
 
-3. **Find your Account ID**
-   - https://dash.cloudflare.com → right sidebar of any zone, or `npx wrangler whoami`.
+Push to `main` and it deploys. The live URL appears in the workflow's `deploy` job summary.
 
-4. **Add GitHub repository secrets** (Settings → Secrets and variables → Actions → New repository secret):
-   - `CLOUDFLARE_API_TOKEN` — the token from step 2
-   - `CLOUDFLARE_ACCOUNT_ID` — the ID from step 3
+### Security headers note
 
-That's it. Push to `main` and the workflow deploys to production. Open a PR and you'll get a preview URL commented on the PR.
+GitHub Pages does **not** support custom response headers, so HSTS, a real CSP header, and `X-Frame-Options` cannot be set there. As a best-effort substitute the app emits a `Content-Security-Policy` and `referrer` via `<meta>` tags ([app/layout.tsx](app/layout.tsx)). GitHub Pages still enforces HTTPS for the custom domain. If you later need full header control (HSTS preload, frame-ancestors), move the same `out/` bundle to Cloudflare Pages or Netlify and restore a `_headers` file — the build output is host-agnostic.
 
-### Cloudflare Pages — manual deploy
+### Manual / other hosts
+
+The site is just the static contents of `out/` after `npm run build`. It can be dropped on any static host:
 
 ```sh
-npx wrangler pages deploy out --project-name nar-tripoli-l2
+npx wrangler pages deploy out          # Cloudflare Pages
+npx netlify deploy --dir=out --prod    # Netlify
 ```
-
-### Netlify
-
-```sh
-npx netlify deploy --dir=out --prod
-```
-
-Or connect the repo with build command `npm run build`, publish directory `out`. TLS is automatic.
-
-### Custom domain
-
-Add the domain in the host's dashboard, point DNS at the host's nameservers (CF) or `A`/`CNAME` records (Netlify), and a Let's Encrypt cert is issued automatically within a few minutes. The `_headers` file in this repo turns on HSTS so once the domain is HTTPS, browsers will refuse to downgrade.
 
 ## Adding or fixing questions
 

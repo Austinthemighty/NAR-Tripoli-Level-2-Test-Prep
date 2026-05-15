@@ -1,0 +1,991 @@
+[
+  {
+    "id": "nar-C-1",
+    "number": 1,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Conditions",
+    "prompt": "What is the maximum launch angle, measured from vertical, for a High Power Rocket?",
+    "options": [
+      { "key": "A", "text": "10 degrees" },
+      { "key": "B", "text": "15 degrees" },
+      { "key": "C", "text": "20 degrees" },
+      { "key": "D", "text": "25 degrees" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "20 degrees from vertical.",
+    "reference": "NAR HPR Safety Code Section 7; NFPA 1127, 4.12.3"
+  },
+  {
+    "id": "nar-C-2",
+    "number": 2,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Conditions",
+    "prompt": "What is the maximum wind velocity allowable for launch operations?",
+    "options": [
+      { "key": "A", "text": "20 miles per hour" },
+      { "key": "B", "text": "25 miles per hour" },
+      { "key": "C", "text": "15 miles per hour" },
+      { "key": "D", "text": "30 miles per hour" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "20 mph maximum.",
+    "reference": "NAR HPR Safety Code Section 9; NFPA 1127, 4.17.2"
+  },
+  {
+    "id": "nar-C-3",
+    "number": 3,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "The minimum launch site dimension for your field is 1,500 feet. According to NFPA 1127, what is the minimum distance between the launch site boundary and the launcher for a 320 Newton-second motor assuming no public highways or occupied buildings in the area?",
+    "options": [
+      { "key": "A", "text": "100 feet" },
+      { "key": "B", "text": "320 feet" },
+      { "key": "C", "text": "750 feet" },
+      { "key": "D", "text": "The launcher may be located anywhere on the launch site to compensate for wind" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The launcher shall be no closer than the Minimum Personnel Distance from any boundary. For an H motor (320 N-s), that is 100 ft.",
+    "reference": "NAR HPR Safety Code Section 11; NFPA 1127, 4.15.4"
+  },
+  {
+    "id": "nar-C-4",
+    "number": 4,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "You plan to break the altitude record for \"H\" motors with a flight to 10,900 feet. You have a field that is 6,000 feet by 6,000 feet and a Certificate of Waiver or Authorization for flights up to 12,000 feet AGL. According to NFPA 1127, what is the minimum distance between the launch site boundary and the launcher for an H-powered altitude record attempt assuming no public highways or occupied buildings are in the area?",
+    "options": [
+      { "key": "A", "text": "100 feet" },
+      { "key": "B", "text": "1,500 feet" },
+      { "key": "C", "text": "3,000 feet" },
+      { "key": "D", "text": "The launcher may be located anywhere on the launch site to compensate for wind" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Minimum Personnel Distance for an H motor (320 N-s) is 100 ft from any boundary.",
+    "reference": "NAR HPR Safety Code Section 11; NFPA 1127, 4.15.4"
+  },
+  {
+    "id": "nar-C-5",
+    "number": 5,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "The FAA has granted a Certificate of Waiver or Authorization for High Power Rocket flights up to 18,000 feet AGL for your event. If flights up to that altitude are expected, what is the minimum launch site dimension?",
+    "options": [
+      { "key": "A", "text": "1,800 feet" },
+      { "key": "B", "text": "4,500 feet" },
+      { "key": "C", "text": "9,000 feet" },
+      { "key": "D", "text": "18,000 feet" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The launch site is no less than one-half (1/2) the maximum altitude expected, calculated, simulated, or granted by the FAA / AHJ.",
+    "reference": "NAR HPR Safety Code Section 10; NFPA 1127, 4.14.2"
+  },
+  {
+    "id": "nar-C-6",
+    "number": 6,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "The FAA has granted a Certificate of Waiver or Authorization for High Power Rocket flights up to 2,500 feet AGL for your 2x \"N\" cluster-powered rocket. What is the minimum launch site dimension?",
+    "options": [
+      { "key": "A", "text": "500 feet" },
+      { "key": "B", "text": "1,250 feet" },
+      { "key": "C", "text": "1,500 feet" },
+      { "key": "D", "text": "4,000 feet" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The launch site is no less than 1/2 the max expected altitude OR 1500 ft, whichever is greater. But the launcher must be at least the Minimum Personnel Distance (2,000 ft for an O-impulse cluster) from the edges, so the field must be at least 4,000 ft.",
+    "reference": "NAR HPR Safety Code Section 10; NFPA 1127, 4.14.2(2)"
+  },
+  {
+    "id": "nar-C-7",
+    "number": 7,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "Except as provided in NFPA 1127 Paragraph 4.14.2(3), in no case shall the minimum launch site dimension be less than __________ the estimated altitude of the High Power Rocket to be flown, or __________.",
+    "options": [
+      { "key": "A", "text": "1/4, 1,500 feet" },
+      { "key": "B", "text": "1/2, 1,500 feet" },
+      { "key": "C", "text": "1/4, 2,500 feet" },
+      { "key": "D", "text": "1/2, 2,500 feet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1/2 the estimated altitude or 1,500 feet, whichever is greater. (An exception permits 1,000 ft minimum for motors under 160 N-s with low liftoff weight and altitude under 2,000 ft.)",
+    "reference": "NAR HPR Safety Code Section 10; NFPA 1127, 4.14.2"
+  },
+  {
+    "id": "nar-C-8",
+    "number": 8,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "Your launch site borders with an interstate freeway. What is the minimum distance allowable of a High Power Rocket launch pad from the interstate freeway?",
+    "options": [
+      { "key": "A", "text": "750 feet" },
+      { "key": "B", "text": "1,500 feet" },
+      { "key": "C", "text": "3,000 feet" },
+      { "key": "D", "text": "5,280 feet (1 mile)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When occupied structures or busy roads are near the launch site, a 1,500-foot minimum separation is required between the launcher and the road or building.",
+    "reference": "NAR HPR Safety Code Section 10; NFPA 1127, 4.15.3(2)"
+  },
+  {
+    "id": "nar-C-9",
+    "number": 9,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "A farm owner offers you the use of their two (2) mile square farm property for a launch site. Their house is located in the middle of the farm. What is the minimum distance allowable for location of a High Power Rocket launch pad from the owner's house, assuming it is occupied?",
+    "options": [
+      { "key": "A", "text": "750 feet" },
+      { "key": "B", "text": "1,500 feet" },
+      { "key": "C", "text": "3,000 feet" },
+      { "key": "D", "text": "You cannot launch unless the house is empty" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When occupied structures or busy roads are near a launch site, a 1,500-foot minimum separation is required between the launcher and the road/building.",
+    "reference": "NAR HPR Safety Code Section 11; NFPA 1127, 4.15.3(1)"
+  },
+  {
+    "id": "nar-C-10",
+    "number": 10,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Site Distances",
+    "prompt": "A farm owner offers you their farm for a launch site. Their house is located in the middle of the farm, which is one quarter (1/4) mile by one quarter (1/4) mile square. Assuming you can get an FAA Certificate of Waiver or Authorization for High Power Rocket flights up to 2,500 feet, can you conduct a high power launch from this farm?",
+    "options": [
+      { "key": "A", "text": "Yes" },
+      { "key": "B", "text": "Yes, but the pads have to be the minimum personnel distance from the edge of the field" },
+      { "key": "C", "text": "Yes, but the house has to be empty" },
+      { "key": "D", "text": "No" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The launch site must be at least 1,500 ft square and may not contain occupied buildings. Pads within 1,500 ft of an occupied house are not permitted.",
+    "reference": "NAR HPR Safety Code Section 10; NFPA 1127, 4.14.2"
+  },
+  {
+    "id": "nar-C-11",
+    "number": 11,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Personnel Distances",
+    "prompt": "What is the minimum personnel distance from a High Power Rocket containing a single \"I\" motor?",
+    "options": [
+      { "key": "A", "text": "200 feet" },
+      { "key": "B", "text": "100 feet" },
+      { "key": "C", "text": "75 feet" },
+      { "key": "D", "text": "50 feet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "100 ft.",
+    "reference": "NAR HPR Safety Code Minimum Distance Table; NFPA 1127 Table 4.16.3"
+  },
+  {
+    "id": "nar-C-12",
+    "number": 12,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Personnel Distances",
+    "prompt": "What is the minimum personnel distance from a High Power Rocket containing three (3) \"H\" motors?",
+    "options": [
+      { "key": "A", "text": "200 feet" },
+      { "key": "B", "text": "100 feet" },
+      { "key": "C", "text": "75 feet" },
+      { "key": "D", "text": "50 feet" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "200 ft for a 3xH cluster (treated as the next-higher motor class).",
+    "reference": "NAR HPR Safety Code Minimum Distance Table; NFPA 1127 Table 4.16.3"
+  },
+  {
+    "id": "nar-C-13",
+    "number": 13,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Personnel Distances",
+    "prompt": "What is the minimum personnel distance from a High Power Rocket containing two (2) \"K\" motors?",
+    "options": [
+      { "key": "A", "text": "50 feet" },
+      { "key": "B", "text": "100 feet" },
+      { "key": "C", "text": "300 feet" },
+      { "key": "D", "text": "500 feet" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "500 ft.",
+    "reference": "NAR HPR Safety Code Minimum Distance Table; NFPA 1127 Table 4.16.3"
+  },
+  {
+    "id": "nar-C-14",
+    "number": 14,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "Which of the following items used for motor ignition may accidentally ignite by the continuity test of some launch controllers?",
+    "options": [
+      { "key": "A", "text": "Nichrome wire" },
+      { "key": "B", "text": "Flashbulbs" },
+      { "key": "C", "text": "Very low current electric matches" },
+      { "key": "D", "text": "Both \"B\" and \"C\" above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Some electric matches and flashbulbs are sensitive to continuity-test currents. Consult the manufacturer and test the setup before installing into a motor."
+  },
+  {
+    "id": "nar-C-15",
+    "number": 15,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Misfires",
+    "prompt": "In the event of a misfire, how long should you wait before approaching the launch pad?",
+    "options": [
+      { "key": "A", "text": "15 seconds" },
+      { "key": "B", "text": "60 seconds" },
+      { "key": "C", "text": "5 minutes" },
+      { "key": "D", "text": "As soon as signs of smoke are gone" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "60 seconds.",
+    "reference": "NAR HPR Safety Code Section 5; NFPA 1127, 4.18.4"
+  },
+  {
+    "id": "nar-C-16",
+    "number": 16,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Motor Storage & Handling",
+    "prompt": "Which of the following is most likely to cause catastrophic failure of a black powder rocket motor?",
+    "options": [
+      { "key": "A", "text": "Temperature cycling" },
+      { "key": "B", "text": "Electromagnetic fields" },
+      { "key": "C", "text": "Vibration" },
+      { "key": "D", "text": "High altitude" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Temperature cycling causes expansion and contraction of the BP grain and motor casing, causing delamination and cracks. Combustion in those cracks increases pressure and causes failure."
+  },
+  {
+    "id": "nar-C-17",
+    "number": 17,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Cluster Ignition",
+    "prompt": "Unless the motor manufacturer instructs otherwise, igniters for clustered rocket motors should be wired together in:",
+    "options": [
+      { "key": "A", "text": "Series" },
+      { "key": "B", "text": "Parallel" },
+      { "key": "C", "text": "Short Circuit" },
+      { "key": "D", "text": "Open" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Parallel. In series, the first igniter to burn out opens the circuit and prevents the others from firing."
+  },
+  {
+    "id": "nar-C-18",
+    "number": 18,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "When can igniters that are installed in rocket motors be checked for continuity?",
+    "options": [
+      { "key": "A", "text": "Any time" },
+      { "key": "B", "text": "Only in an enclosed shelter" },
+      { "key": "C", "text": "Only on the launch pad when ready for launch" },
+      { "key": "D", "text": "Igniters should never be checked for continuity while installed in a rocket motor" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Continuity is typically checked by the launch controller when the rocket is on the pad — personnel are at minimum, and the model is pointed skyward."
+  },
+  {
+    "id": "nar-C-19",
+    "number": 19,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Construction",
+    "prompt": "Which of the following is the preferred method for attaching fins to a High Power Rocket?",
+    "options": [
+      { "key": "A", "text": "Tube surface mounting" },
+      { "key": "B", "text": "\"Wedge\" mount" },
+      { "key": "C", "text": "\"Though the wall\" mounting" },
+      { "key": "D", "text": "All fin mounting methods are all equally strong; it does not matter" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Through-the-wall mounting is stronger because the fins are supported and attached to the rocket at both the motor tube and the body tube."
+  },
+  {
+    "id": "nar-C-20",
+    "number": 20,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Construction",
+    "prompt": "Which of the following adhesives should not be used on rubber (or elastic) shock cord components?",
+    "options": [
+      { "key": "A", "text": "Slow-curing epoxy adhesives" },
+      { "key": "B", "text": "Cyanoacrylate glues (AKA \"CA\" or super glue)" },
+      { "key": "C", "text": "Aliphatic resin-based (yellow) glues" },
+      { "key": "D", "text": "White \"Elmer's\" type glues" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cyanoacrylate glues chemically attack rubber or elastic shock cord, weakening it under stretch."
+  },
+  {
+    "id": "nar-C-21",
+    "number": 21,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Construction",
+    "prompt": "Which of the following adhesives is most likely to be weakened under humid or wet weather conditions?",
+    "options": [
+      { "key": "A", "text": "Slow-curing epoxy adhesives" },
+      { "key": "B", "text": "Cyanoacrylate glues (AKA \"CA\" or super glue)" },
+      { "key": "C", "text": "Aliphatic resin based (yellow) glues" },
+      { "key": "D", "text": "White \"Elmer's\" type glues" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "White glues are weakened by high humidity. Use aliphatic resin (yellow) glues instead."
+  },
+  {
+    "id": "nar-C-22",
+    "number": 22,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Construction",
+    "prompt": "Which of the following adhesives is best for motor mount construction using phenolic motor tubes?",
+    "options": [
+      { "key": "A", "text": "Slow-curing epoxy adhesives" },
+      { "key": "B", "text": "Cyanoacrylate glues (AKA \"CA\" or super glue)" },
+      { "key": "C", "text": "Aliphatic resin based (yellow) glues" },
+      { "key": "D", "text": "\"Hot melt\" adhesives" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Epoxies form fillets at bond joints for added strength and bridge gaps in loose-fitting parts. CA glues soak into paper/cardboard and are poor gap fillers; yellow glues don't bond well to phenolic/fiberglass; hot melt softens with heat."
+  },
+  {
+    "id": "nar-C-23",
+    "number": 23,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Construction",
+    "prompt": "The centering rings provided with your High Power Rocket kit are a loose fit around the phenolic motor tube. Which of the following adhesives is the best choice for a strong joint?",
+    "options": [
+      { "key": "A", "text": "Slow-curing epoxy adhesives" },
+      { "key": "B", "text": "Cyanoacrylate glues (AKA \"CA\" or super glue)" },
+      { "key": "C", "text": "Aliphatic resin based (yellow) glues" },
+      { "key": "D", "text": "\"Hot melt\" adhesives" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Epoxies form strong fillets and bridge gaps for loose-fitting parts."
+  },
+  {
+    "id": "nar-C-24",
+    "number": 24,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Vent Hole",
+    "prompt": "A small hole is typically recommended near the top, but below the nosecone or payload section shoulder, of a High Power Rocket's booster section. Why?",
+    "options": [
+      { "key": "A", "text": "This hole allows excessive ejection charge pressures to vent to reduce shock cord stress" },
+      { "key": "B", "text": "The hole is used for air pressure readings for onboard altimeters" },
+      { "key": "C", "text": "The hole vents internal air pressure as the rocket gains altitude to prevent internal air pressure from prematurely separating the model" },
+      { "key": "D", "text": "The hole allows easy verification that a parachute is installed" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Air pressure external to the rocket decreases as it ascends. Pressure trapped inside an unvented compartment can cause premature separation; the vent hole prevents this."
+  },
+  {
+    "id": "nar-C-25",
+    "number": 25,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Cluster Ignition",
+    "prompt": "When clustering combinations of black powder and composite motors, which type of rocket motor should be ignited first?",
+    "options": [
+      { "key": "A", "text": "Composite motors should be ignited first" },
+      { "key": "B", "text": "Black powder motors should be ignited first" },
+      { "key": "C", "text": "It does not matter which motors are ignited first" },
+      { "key": "D", "text": "Clusters should never mix composite and black powder motors" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Composite motors take longer to ignite than black powder motors. If BP fires first, the rocket may leave the pad before the composite ignites."
+  },
+  {
+    "id": "nar-C-26",
+    "number": 26,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Cluster Ignition",
+    "prompt": "Why should composite motors be ignited first in a composite and black powder mixed cluster?",
+    "options": [
+      { "key": "A", "text": "Composite motors are more difficult and take longer to ignite" },
+      { "key": "B", "text": "Composite motors are more likely to \"cato\" than black powder motors" },
+      { "key": "C", "text": "The exhaust products from black powder motors prevent composite motor ignition" },
+      { "key": "D", "text": "Composite motors are more powerful than black powder motors" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Composite motors take longer to ignite. Depending on the configuration, the rocket may leave the pad before the composite ignites and therefore be underpowered."
+  },
+  {
+    "id": "nar-C-27",
+    "number": 27,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Cluster Ignition",
+    "prompt": "If individual igniters are used for igniting a motor cluster, which of the following statements is typically true:",
+    "options": [
+      { "key": "A", "text": "The launch control must have an audible as well as visual indication of igniter continuity" },
+      { "key": "B", "text": "The launch control must provide additional current to ignite the additional igniters" },
+      { "key": "C", "text": "The launch control must provide higher voltage to ignite the additional igniters" },
+      { "key": "D", "text": "The launch control must use a car battery as a power source" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Parallel cluster wiring shares the current among all the igniters. Marginal current means the most-sensitive igniter fires first and the cluster may launch before fully lit. Use a higher-current battery — not higher voltage."
+  },
+  {
+    "id": "nar-C-28",
+    "number": 28,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "What is (are) the advantage(s) of using a \"relay\" type launch control?",
+    "options": [
+      { "key": "A", "text": "It is cheaper than a non-relay launch control" },
+      { "key": "B", "text": "The relay allows a better indication of igniter continuity" },
+      { "key": "C", "text": "It can deliver more power to the rocket motor igniters" },
+      { "key": "D", "text": "Both \"B\" and \"C\" above" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A relay launch system places the battery close to the pad, minimizing voltage loss over long wire runs. The wires to the relay carry only relay-operation current."
+  },
+  {
+    "id": "nar-C-29",
+    "number": 29,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Hybrid Motors",
+    "prompt": "Petroleum based lubricants should not be used with the oxygen or nitrous oxide systems used in hybrid rocket motors. Why?",
+    "options": [
+      { "key": "A", "text": "They thicken when exposed to oxygen or nitrous oxide" },
+      { "key": "B", "text": "They lose their lubricating properties when exposed to oxygen or nitrous oxide" },
+      { "key": "C", "text": "There is a risk of spontaneous ignition or explosion" },
+      { "key": "D", "text": "The lubricant can promote corrosion of the metal components in the presence oxygen or nitrous oxide" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Petroleum lubricants are a fuel; in oxygen-rich environments the risk of spontaneous ignition/explosion increases."
+  },
+  {
+    "id": "nar-C-30",
+    "number": 30,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Hybrid Motors",
+    "prompt": "Which of the following safety hazards may be associated with hybrid rocket motors?",
+    "options": [
+      { "key": "A", "text": "High pressure gas & low temperatures (frostbite)" },
+      { "key": "B", "text": "Low temperatures (frostbite)" },
+      { "key": "C", "text": "Corrosive materials" },
+      { "key": "D", "text": "High pressure gas" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nitrous oxide cylinders run around 750 psi and N2O boils at –127°F. High-pressure gas and frostbite are both hazards."
+  },
+  {
+    "id": "nar-C-31",
+    "number": 31,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Authorities",
+    "prompt": "The Range Safety Officer (RSO) says that your model is unsafe to fly. Who has the authority to overturn this ruling?",
+    "options": [
+      { "key": "A", "text": "The Launch Control Officer (LCO)" },
+      { "key": "B", "text": "The individual who \"checked-in\" the model" },
+      { "key": "C", "text": "Three high power certified flyers who agree the model is safe" },
+      { "key": "D", "text": "The RSO's decision cannot be overturned by anyone" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The RSO's decision is final. The flier may present additional information (e.g., simulations or prior flight data) for the RSO to reconsider."
+  },
+  {
+    "id": "nar-C-32",
+    "number": 32,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Electronics",
+    "prompt": "Parachute ejection systems that sense barometric pressure for activation need a vent to the outside in their compartment because:",
+    "options": [
+      { "key": "A", "text": "This hole allows excessive ejection charge pressures to vent" },
+      { "key": "B", "text": "This hole is used to sample air pressure readings outside the rocket's airframe" },
+      { "key": "C", "text": "This hole vents internal air pressure as the rocket gains altitude to prevent internal air pressure from prematurely separating the model" },
+      { "key": "D", "text": "This hole allows easy verification that the battery is installed" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Most barometric ejection systems trigger after detecting the change from a negative pressure trend to positive (typically at apogee). The vent lets the sensor sample the outside pressure."
+  },
+  {
+    "id": "nar-C-33",
+    "number": 33,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Authorities",
+    "prompt": "Which of the following individuals has the final authority in permitting a High Power Rocket to fly?",
+    "options": [
+      { "key": "A", "text": "The Launch Control Officer (LCO)" },
+      { "key": "B", "text": "The Range Safety Officer (RSO)" },
+      { "key": "C", "text": "The Check-in Officer" },
+      { "key": "D", "text": "The rocket owner" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The RSO's decision is final."
+  },
+  {
+    "id": "nar-C-34",
+    "number": 34,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Authorities",
+    "prompt": "Which of the following individuals has the ultimate responsibility to ensure that a rocket was built in a safe manner?",
+    "options": [
+      { "key": "A", "text": "The Launch Control Officer (LCO)" },
+      { "key": "B", "text": "The Range Safety Officer" },
+      { "key": "C", "text": "The rocket owner/builder" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Range personnel can catch lapses in construction quality, but the owner/builder bears all responsibility."
+  },
+  {
+    "id": "nar-C-35",
+    "number": 35,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Electronics",
+    "prompt": "Parachute ejection systems that sense barometric pressure can malfunction during supersonic flight because:",
+    "options": [
+      { "key": "A", "text": "Aerodynamic heating changes the values of electronic components" },
+      { "key": "B", "text": "The outside pressure distribution is not continuous around the model" },
+      { "key": "C", "text": "Static discharges will \"zap\" sensitive electronic components" },
+      { "key": "D", "text": "Both answers \"A\" and \"B\" are correct" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "During supersonic flight, shock waves are generated off various model features. The pressure distribution across the shock wave is not continuous and may fool the ejection logic into premature ejection."
+  },
+  {
+    "id": "nar-C-36",
+    "number": 36,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Failures",
+    "prompt": "Your rocket returned from its flight with \"zipper\" damage where the shock cord tore through the model's airframe. What is the most likely cause?",
+    "options": [
+      { "key": "A", "text": "Parachute ejection occurred too soon after motor burnout" },
+      { "key": "B", "text": "Parachute ejection occurred too late after apogee" },
+      { "key": "C", "text": "Parachute ejection occurred at apogee on a vertical flight" },
+      { "key": "D", "text": "Both \"A\" and \"B\"" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Zippers happen when the model is moving too quickly during deployment. Ejection too soon doesn't allow it to slow; ejection too late after apogee lets it gain velocity again."
+  },
+  {
+    "id": "nar-C-37",
+    "number": 37,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Failures",
+    "prompt": "Your payload section, with a heavy payload, separated from your model immediately after motor burnout. What might be the cause?",
+    "options": [
+      { "key": "A", "text": "The center of pressure at burnout was behind the center of gravity" },
+      { "key": "B", "text": "The payload shoulder was too loose in the body tube" },
+      { "key": "C", "text": "The rocket motor had a failure of its delay system" },
+      { "key": "D", "text": "Both \"B\" and \"C\" are correct" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Delay-train failures can do this. More often, drag separation does — the higher drag on the aft section pulls it away from the forward section. Shear pins or positive retention prevent this."
+  },
+  {
+    "id": "nar-C-38",
+    "number": 38,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Pad Clearance",
+    "prompt": "What is the distance around a launch pad for a \"J\" powered model that must be cleared of easy to burn material, assuming the motor is not \"sparky?\"",
+    "options": [
+      { "key": "A", "text": "10 feet" },
+      { "key": "B", "text": "30 feet" },
+      { "key": "C", "text": "50 feet" },
+      { "key": "D", "text": "75 feet" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "50 feet.",
+    "reference": "NAR HPR Safety Code Section 7; NFPA 1127, 4.15.1, Table 4.15.1"
+  },
+  {
+    "id": "nar-C-39",
+    "number": 39,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Pad Clearance",
+    "prompt": "What is the distance around a launch pad that must be cleared of easy to burn material for a rocket using a 2-motor cluster of full impulse \"J\" motors, assuming the motors are not \"sparky?\"",
+    "options": [
+      { "key": "A", "text": "10 feet" },
+      { "key": "B", "text": "30 feet" },
+      { "key": "C", "text": "50 feet" },
+      { "key": "D", "text": "75 feet" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "75 feet (treated as the next higher impulse class).",
+    "reference": "NAR HPR Safety Code Section 7; NFPA 1127, 4.15.1, Table 4.15.1"
+  },
+  {
+    "id": "nar-C-40",
+    "number": 40,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Sparky Motors",
+    "prompt": "What is the distance around a launch pad to clear of all combustible and burnable materials for a rocket using a single \"J\" motor that uses titanium sponge in the propellant to emit sparks (\"sparky\" motor)?",
+    "options": [
+      { "key": "A", "text": "30 feet" },
+      { "key": "B", "text": "50 feet" },
+      { "key": "C", "text": "75 feet" },
+      { "key": "D", "text": "150 feet" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "75 feet (sparky motors require an increased cleared distance).",
+    "reference": "NAR HPR Safety Code Section 7; NFPA 1127, 4.15.1, Table 4.15.1"
+  },
+  {
+    "id": "nar-C-41",
+    "number": 41,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Sparky Motors",
+    "prompt": "What is \"titanium sponge?\"",
+    "options": [
+      { "key": "A", "text": "A substitute for ejection wadding" },
+      { "key": "B", "text": "An ingredient used in some rocket motors that emit sparks in the exhaust" },
+      { "key": "C", "text": "An effective cleaning tool for high power rocket motor casings" },
+      { "key": "D", "text": "A lightweight material used in nose cones on supersonic rockets" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Titanium sponge is used in some propellant formulations to create a sparky effect in the exhaust. Use of these motors requires an increased clear area around the pad."
+  },
+  {
+    "id": "nar-C-42",
+    "number": 42,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Motor Retention",
+    "prompt": "Consequences of inadequate motor retention can include:",
+    "options": [
+      { "key": "A", "text": "The motor being ejected at apogee instead of the parachute, resulting in two falling objects" },
+      { "key": "B", "text": "The motor being ejected from a cluster and flying on its own, under power" },
+      { "key": "C", "text": "The motor flying through the rocket, destroying it" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Common results of inadequate retention include the motor being ejected when the deployment charge fires, motors falling out of cluster mounts and igniting, or motors flying through the rocket. Positive retention is required in both directions."
+  },
+  {
+    "id": "nar-C-43",
+    "number": 43,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Failure Modes",
+    "prompt": "According to NAR studies, the vast majority of unsuccessful flights fail because of:",
+    "options": [
+      { "key": "A", "text": "Unstable rocket designs" },
+      { "key": "B", "text": "Rocket motor malfunctions" },
+      { "key": "C", "text": "Recovery system failures" },
+      { "key": "D", "text": "Structurally unsound rockets" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "75% of flight failures are due to recovery system problems.",
+    "reference": "Launching Safely in the 21st Century: Final Report of the Special Committee on Range Operation and Procedure, Chapter 2"
+  },
+  {
+    "id": "nar-C-44",
+    "number": 44,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Kinetic Energy",
+    "prompt": "The kinetic energy of a descending rocket is a function of:",
+    "options": [
+      { "key": "A", "text": "Its mass" },
+      { "key": "B", "text": "Its velocity" },
+      { "key": "C", "text": "Its mass times its velocity" },
+      { "key": "D", "text": "Its mass times the square of its velocity" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Kinetic energy = ½mv². A 40-lb rocket at 30 fps has about 749 joules of KE."
+  },
+  {
+    "id": "nar-C-45",
+    "number": 45,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Wind",
+    "prompt": "You have an excellent flying field except that when winds are from the northwest at over 10 mph, rockets often drift into neighboring fields where you don't have permission to fly. Your alternatives include:",
+    "options": [
+      { "key": "A", "text": "Limit flights to lower altitudes so rockets stay on the field" },
+      { "key": "B", "text": "Move the launch pad closer to the NW edge of the field, provided there are no roads or houses within 1500 feet" },
+      { "key": "C", "text": "Don't fly at times when the wind is problematic" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above. Other alternatives: dual deployment, smaller parachutes, tilted launch rods.",
+    "reference": "NAR HPR Safety Code Section 13; NFPA 1127, 4.17.1"
+  },
+  {
+    "id": "nar-C-46",
+    "number": 46,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Onboard Energetics",
+    "prompt": "When should onboard energetics and/or electronic controls be activated and when should they be inhibited?",
+    "options": [
+      { "key": "A", "text": "The function of firing circuits and onboard energetics shall be inhibited until the High Power Rocket is in the launch position. They can then be activated when non-essential personnel leave the pad area." },
+      { "key": "B", "text": "When the rocket is in the prep area." },
+      { "key": "C", "text": "The function of firing circuits and onboard energetics shall be inhibited prior to removing the High Power Rocket from the launch position, and doing so only when non-essential personnel are not in the pad area unless otherwise directed by the RSO" },
+      { "key": "D", "text": "Both \"A\" and \"C\"" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both A and C. Many altimeters require the rocket be on the pad in a vertical orientation to initialize properly.",
+    "reference": "NAR HPR Safety Code Sections 4 and 6; NFPA 1127, 4.13.7 and 4.13.8"
+  },
+  {
+    "id": "nar-C-47",
+    "number": 47,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Required Equipment",
+    "prompt": "What equipment is required at launch sites?",
+    "options": [
+      { "key": "A", "text": "Fire suppression devices (such as fire extinguishers)" },
+      { "key": "B", "text": "First Aid kits" },
+      { "key": "C", "text": "Fire suppression devices and First Aid kits" },
+      { "key": "D", "text": "Fire suppression devices, First Aid kits, and a method of communicating with everyone at the launch site" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Fire suppression, first aid kits, and communication with all personnel.",
+    "reference": "NFPA 1127, 4.14.3 and 4.18.3.1"
+  },
+  {
+    "id": "nar-C-48",
+    "number": 48,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Stability",
+    "prompt": "The Range Safety Officer (RSO) is concerned about your High Power Rocket's stability. Which of the following can be applied to determine the model's stability?",
+    "options": [
+      { "key": "A", "text": "Fly a sub-scale, model rocket version of the actual model" },
+      { "key": "B", "text": "Perform manual calculations to determine the rocket's Center of Pressure (CP) location and verify the prelaunch Center of Gravity (CG) location" },
+      { "key": "C", "text": "Provide simulation data showing the rocket's Center of Pressure (CP) and prelaunch Center of Gravity (CG) locations" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above. Swing tests are usually not feasible for HPR. RockSim/OpenRocket or the Barrowman method is most accurate.",
+    "reference": "NAR HPR Safety Code Section 6; NFPA 1127, 4.8.2"
+  },
+  {
+    "id": "nar-C-49",
+    "number": 49,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery",
+    "prompt": "Your High Power Rocket lands on a power line. Which of the following is true?",
+    "options": [
+      { "key": "A", "text": "You can retrieve it if the power line is on a wooden (not metal) pole" },
+      { "key": "B", "text": "You must leave it alone and you must call the power company" },
+      { "key": "C", "text": "You can retrieve it if you have a non-conductive tool, such as a \"hot-stick\"" },
+      { "key": "D", "text": "You can retrieve it if part of it is already on the ground" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Leave it alone and call the power company.",
+    "reference": "NAR HPR Safety Code Section 13; NFPA 1127, 4.10.5 and 4.10.6"
+  },
+  {
+    "id": "nar-C-50",
+    "number": 50,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Wind",
+    "prompt": "Your field is 1500 x 1500 feet and your FAA Certificate of Waiver or Authorization is 3,000 feet AGL. If you use parachutes sized to bring your rockets down at 20 feet per second, what is the maximum wind you can fly in for a rocket that will reach the altitude limit with an \"H\" motor?",
+    "options": [
+      { "key": "A", "text": "You are limited only by the HPR maximum wind of 20 miles per hour" },
+      { "key": "B", "text": "You can fly at 15 mph, if you locate the pad at the upwind edge of the field and tilt into the wind" },
+      { "key": "C", "text": "You can fly in winds up to about 6 miles per hour, if you have the pads located closer to the upwind edge of the field and the rocket flies vertically (assuming minimum distances are maintained)" },
+      { "key": "D", "text": "This field can only be used in calm winds for flights to the 3,000 foot altitude limit" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "At 20 fps descent, the rocket takes 150 s to reach the ground from 3,000 ft. In 20 mph (~30 fps) winds the rocket drifts 4,400 ft — off the field. At ~6 mph (8.8 fps) it drifts about 1,320 ft, which can be kept on the field with proper pad placement.",
+    "reference": "NAR HPR Safety Code Section 13; NFPA 1127, 4.17.1"
+  },
+  {
+    "id": "nar-C-51",
+    "number": 51,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "According to NFPA 1127, which of the following is NOT a required feature of a rocket motor ignition system (launch controller)?",
+    "options": [
+      { "key": "A", "text": "A removable interlock device in series with the launch switch" },
+      { "key": "B", "text": "The system is electrically operated" },
+      { "key": "C", "text": "The launching switch returns to the \"off\" position when released" },
+      { "key": "D", "text": "An audible or visual indicator showing continuity through the rocket motor igniter" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Continuity indicators are not a required feature.",
+    "reference": "NAR HPR Safety Code Section 4; NFPA 1127, 4.13.1 and 4.13.2"
+  },
+  {
+    "id": "nar-C-52",
+    "number": 52,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Personal Conduct",
+    "prompt": "According to NFPA 1127, which of the following are prohibited activities for participants prepping or launching High Power Rocket's as well as for spectators in the prepping areas?",
+    "options": [
+      { "key": "A", "text": "Consumption of alcohol" },
+      { "key": "B", "text": "Use of medication that could affect judgment, movement, or stability" },
+      { "key": "C", "text": "Using a cell phone due to possible interference with a rocket's onboard energetics and/or electronic controls" },
+      { "key": "D", "text": "Both \"A\" and \"B\" above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Alcohol and impairing medication are both prohibited.",
+    "reference": "NFPA 1127, 6.1(11)"
+  },
+  {
+    "id": "nar-C-53",
+    "number": 53,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Storage",
+    "prompt": "According to NFPA 1127, High Power Rocket motors, motor reloading kits, and pyrotechnic modules shall be stored at least __________ away from smoking, open flames, and other sources of heat.",
+    "options": [
+      { "key": "A", "text": "10 feet" },
+      { "key": "B", "text": "25 feet" },
+      { "key": "C", "text": "50 feet" },
+      { "key": "D", "text": "75 feet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "25 feet.",
+    "reference": "NAR HPR Safety Code Section 3; NFPA 1127, 4.19.1"
+  },
+  {
+    "id": "nar-C-54",
+    "number": 54,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Multi-Rocket Launches",
+    "prompt": "According to NFPA 1127, what extra constraints and launch distances are required when launching multiple High Power Rockets simultaneously?",
+    "options": [
+      { "key": "A", "text": "The LCO shall appoint a contest judge to determine which rocket wins the liftoff" },
+      { "key": "B", "text": "For three (3) or more rockets, the minimum spectator and participant distance shall be the value set forth in Table 4.16.3 for a complex rocket with the same total installed impulse but not more than 610 m (2000 ft), or 1.5 times the highest altitude expected to be reached by any of the rockets, whichever is less" },
+      { "key": "C", "text": "For more than one (1) rocket, a minimum distance of 3 m (10 ft) shall exist between each rocket used" },
+      { "key": "D", "text": "Both \"B\" and \"C\"" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both apply. Although not required, it is also best practice to appoint a spotter for each rocket to warn the LCO of unsafe flight or recovery anomalies.",
+    "reference": "NAR HPR Safety Code Section 6; NFPA 1127, 4.16.3.3 and 4.16.3.4, Table 4.16.3"
+  },
+  {
+    "id": "nar-C-55",
+    "number": 55,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "What is a common safety practice to follow just before hooking up the igniter leads to a rocket?",
+    "options": [
+      { "key": "A", "text": "Touch the igniter clips together to test for sparks in case the launch system is still accidentally energized" },
+      { "key": "B", "text": "Run an additional simulation to ensure the rocket and motor are a safe combination" },
+      { "key": "C", "text": "Check the skies to ensure no aircraft are in the area" },
+      { "key": "D", "text": "Stand next to the rocket for a photograph" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Touching the metal clips together before connecting to the igniter prevents an accidental launch if the launch system is energized."
+  },
+  {
+    "id": "nar-C-56",
+    "number": 56,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Electronics",
+    "prompt": "An electronically actuated recovery system, as either a primary or backup deployment method, is required if the installed total impulse exceeds:",
+    "options": [
+      { "key": "A", "text": "1280 N-sec" },
+      { "key": "B", "text": "2560 N-sec" },
+      { "key": "C", "text": "5120 N-sec" },
+      { "key": "D", "text": "10240 N-sec" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "2560 N-sec.",
+    "reference": "NFPA 1127, 4.10.2"
+  },
+  {
+    "id": "nar-C-57",
+    "number": 57,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Electronics",
+    "prompt": "Twisted wire pairs in rocket wiring are considered good practice because:",
+    "options": [
+      { "key": "A", "text": "It reduces strain on solder joints" },
+      { "key": "B", "text": "It improves the routing of wire bundles" },
+      { "key": "C", "text": "It resists electromagnetic interference from internal and external sources" },
+      { "key": "D", "text": "It reduces resistance in wire bundles" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Twisted pairs reduce noise currents induced by electric or magnetic fields — induced currents in each wire cancel out."
+  },
+  {
+    "id": "nar-C-58",
+    "number": 58,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Recovery Electronics",
+    "prompt": "Black powder charges for recovery systems can be unintentionally fired by:",
+    "options": [
+      { "key": "A", "text": "Electrostatic discharge (static electricity)" },
+      { "key": "B", "text": "Electromagnetic fields, e.g. nearby radios" },
+      { "key": "C", "text": "Control electronics malfunction" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Static, EMI from nearby radios, and electronics malfunctions (startup transients, miswiring, sensor errors) can all unintentionally fire BP charges."
+  },
+  {
+    "id": "nar-C-59",
+    "number": 59,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Launch Equipment",
+    "prompt": "The use of launch rails, e.g. 1010 and 1015, in lieu of launch rods is encouraged because:",
+    "options": [
+      { "key": "A", "text": "Launch rails create less drag on the launching rocket" },
+      { "key": "B", "text": "Launch rails are stiffer and less likely to impose unintentional tipoff on the rocket (no rod whip)" },
+      { "key": "C", "text": "Launch rails are easier to clean than launch rods" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rails are stiffer than rods, reducing rod-whip flexing and producing a more predictable launch trajectory."
+  },
+  {
+    "id": "nar-C-60",
+    "number": 60,
+    "cert": "nar",
+    "section": "range-safety",
+    "topic": "Ignition Safety",
+    "prompt": "Which sequence below provides the highest level of range safety when launching a rocket utilizing an onboard electronically actuated recovery system?",
+    "options": [
+      { "key": "A", "text": "Arm recovery system electronics, install igniter, touch igniter clips together, connect clips to igniter" },
+      { "key": "B", "text": "Install igniter, touch igniter clips together, connect clips to igniter, arm recovery system electronics" },
+      { "key": "C", "text": "Install igniter, arm recovery system electronics, touch igniter clips together, connect clips to igniter" },
+      { "key": "D", "text": "None of the above" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Arming electronics first means an accidental launch will result in proper recovery. Installing the igniter before electronics are armed could create a ballistic return if the rocket accidentally fires."
+  }
+]

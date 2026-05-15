@@ -1,0 +1,827 @@
+[
+  {
+    "id": "tripoli-tech-1",
+    "number": 1,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Newton's Laws",
+    "prompt": "Which of Newton's Laws best describes the behavior of a rocket motor?",
+    "options": [
+      { "key": "a", "text": "Newton's First Law: A body continues in its state of rest or of uniform motion in a straight line unless it is compelled to change that state by forces impressed upon it" },
+      { "key": "b", "text": "Newton's Second Law: The rate of change of momentum is proportional to the force impressed and is in the same direction as that force" },
+      { "key": "c", "text": "Newton's Third Law: To every action there is always an equal and opposite reaction" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Newton's Third Law. Applying a force in one direction always results in an equal force in the opposite direction."
+  },
+  {
+    "id": "tripoli-tech-2",
+    "number": 2,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Newton's Laws",
+    "prompt": "How does Newton's Third Law \"To every action there is always an equal and opposite reaction\" relate to rocketry?",
+    "options": [
+      { "key": "a", "text": "That the blast deflector must be strong enough to push the rocket off the launch pad at ignition." },
+      { "key": "b", "text": "That a rocket flies because the rocket motor \"pushes\" the rocket in a direction opposite of the exhaust jet." },
+      { "key": "c", "text": "That the thrust of a rocket motor is proportional to the air density at the launch site" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The rocket motor's thrust causes the rocket to accelerate in the direction opposite the motor's thrust. Thus, a rocket motor pushes only on the rocket, not on the air or launch pad."
+  },
+  {
+    "id": "tripoli-tech-3",
+    "number": 3,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Forces & Altitude",
+    "prompt": "What are the three forces acting upon a rocket during flight?",
+    "options": [
+      { "key": "a", "text": "Thrust, rocket diameter and finish" },
+      { "key": "b", "text": "Nose cone shape, thrust and drag" },
+      { "key": "c", "text": "Gravity, thrust and aerodynamic drag" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Gravity, thrust and drag are the forces acting on a rocket."
+  },
+  {
+    "id": "tripoli-tech-4",
+    "number": 4,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Forces & Altitude",
+    "prompt": "What are the three major factors that determine the maximum altitude of a high-power rocket in vertical flight?",
+    "options": [
+      { "key": "a", "text": "Lift-off weight, propellant weight and motor thrust" },
+      { "key": "b", "text": "Fin size, propellant weight and motor thrust" },
+      { "key": "c", "text": "Motor thrust, rocket weight, and aerodynamic drag" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The motor thrust, weight and aerodynamic drag are the primary forces considered when determining the altitude of a rocket. Both the lift-off weight and the weight at burn-out must be considered to be complete."
+  },
+  {
+    "id": "tripoli-tech-5",
+    "number": 5,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "For an inherently stable rocket, which statement about the center of gravity (CG) and the center of pressure (CP) is true?",
+    "options": [
+      { "key": "a", "text": "The CG must be behind the CP relative to the desired direction of flight" },
+      { "key": "b", "text": "The CG must be forward of the CP relative to the desired direction of flight" },
+      { "key": "c", "text": "The CG must move forward (in the desired direction of flight) during the motor burn" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "For an aerodynamically stable rocket with the CP behind the CG, the lift centered aft of the CG creates a corrective moment that returns the rocket to zero degrees angle of attack."
+  },
+  {
+    "id": "tripoli-tech-6",
+    "number": 6,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "A 4\" diameter rocket with its motor is determined to have the center of gravity (CG) four inches behind the center of pressure (CP). Is this a rocket likely to be stable?",
+    "options": [
+      { "key": "a", "text": "No, the CG should be at least two body diameters behind the CP" },
+      { "key": "b", "text": "No, the CP must be behind the CG for the rocket to be stable" },
+      { "key": "c", "text": "Yes, the CP is one body diameter in front of the CG" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The rocket is not stable. If rotated around its CG, the aerodynamic force forward of the CG would cause it to rotate even farther, resulting in unstable flight."
+  },
+  {
+    "id": "tripoli-tech-7",
+    "number": 7,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "The center of pressure (CP) of a rocket is generally defined as:",
+    "options": [
+      { "key": "a", "text": "The balance point of the rocket without the motor" },
+      { "key": "b", "text": "The total area of the fins, airframe and nose cone divided by two" },
+      { "key": "c", "text": "The point at which aerodynamic lift on a rocket is centered" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The center of pressure (CP) is the point on the rocket where aerodynamic lift is centered."
+  },
+  {
+    "id": "tripoli-tech-8",
+    "number": 8,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "What is the \"rule-of-thumb\" for a stable rocket?",
+    "options": [
+      { "key": "a", "text": "That the center of gravity should be at least one body diameter in front of the center of pressure" },
+      { "key": "b", "text": "That the center of gravity should be very nearly at the same point as the center of pressure" },
+      { "key": "c", "text": "The rocket should balance near or at the center of gravity" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Keeping the CG one body diameter in front of the CP typically allows an adequate margin for rocket stability."
+  },
+  {
+    "id": "tripoli-tech-9",
+    "number": 9,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "You are at the launch site and decide to fly your rocket on a heavier motor than you simulated it on. Which statement regarding CG is true?",
+    "options": [
+      { "key": "a", "text": "One can install the motor, recovery system and payload and determine the balance point of the rocket as it is ready for flight" },
+      { "key": "b", "text": "One can balance the rocket with the motor hardware alone because that is the condition of the rocket after motor burnout" },
+      { "key": "c", "text": "It is not necessary to test for the center of gravity when using a heavier motor because it has more thrust" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Measuring the CG by balancing the rocket requires that the rocket be prepared as though ready for flight. It is especially important to check when using a heavier motor than previously flown."
+  },
+  {
+    "id": "tripoli-tech-10",
+    "number": 10,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "What ordinarily happens to the center of gravity (CG) of a rocket during a solid rocket motor's thrusting phase?",
+    "options": [
+      { "key": "a", "text": "The CG stays the same" },
+      { "key": "b", "text": "The CG shifts forward" },
+      { "key": "c", "text": "The CG shifts aft" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "As the propellant burns, the motor gets lighter causing the CG to shift forward. This is why a marginally stable rocket may \"act squirrelly\" at launch, then stabilize and fly straight."
+  },
+  {
+    "id": "tripoli-tech-11",
+    "number": 11,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "How can a statically unstable rocket be made stable?",
+    "options": [
+      { "key": "a", "text": "Using a heavier motor" },
+      { "key": "b", "text": "Adding weight to the nose" },
+      { "key": "c", "text": "Making the rocket shorter" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Adding enough weight to the nose will shift the CG forward of the CP."
+  },
+  {
+    "id": "tripoli-tech-12",
+    "number": 12,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "What are three methods used to shift the center of gravity (CG) of a rocket forward?",
+    "options": [
+      { "key": "a", "text": "Add weight to the nose, make the rocket longer, install larger fins" },
+      { "key": "b", "text": "Add weight to the nose, make the rocket longer, use a smaller (or lighter) motor" },
+      { "key": "c", "text": "Add weight to the nose, make the rocket shorter, use a smaller motor" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Adding mass to the nose, making the rocket longer ahead of the CP (lever-arm), and using a lighter motor all shift the CG forward."
+  },
+  {
+    "id": "tripoli-tech-13",
+    "number": 13,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Stability (CG/CP)",
+    "prompt": "What are three methods used to shift the center of pressure (CP) aft?",
+    "options": [
+      { "key": "a", "text": "Make the rocket shorter, use larger fins, increase the number of fins" },
+      { "key": "b", "text": "Make the rocket shorter, use smaller fins, add weight to the nose" },
+      { "key": "c", "text": "Make the rocket shorter, change the number of fins, use a longer launch rod" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Increasing the total fin area moves the CP aft. This can be done with larger fins or more fins. Shortening the rocket ahead of the CP also moves CP aft (though this also moves CG aft)."
+  },
+  {
+    "id": "tripoli-tech-14",
+    "number": 14,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Drag",
+    "prompt": "The definition of coefficient of drag (Cd) is:",
+    "options": [
+      { "key": "a", "text": "A dimensionless number that represents the effect of gravity and Mach number of the rocket" },
+      { "key": "b", "text": "A dimensionless number dependent on the rocket configuration, Mach number and angle of attack" },
+      { "key": "c", "text": "The force, in Newtons, exerted on the rocket by the atmosphere" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Cd is a dimensionless number used in equations for aerodynamic drag. It depends on nose cone shape, airframe diameters, transitions, fin size/shape, Mach number, and angle of attack."
+  },
+  {
+    "id": "tripoli-tech-15",
+    "number": 15,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Drag",
+    "prompt": "What happens to the coefficient of drag (Cd) as the rocket approaches the speed of sound?",
+    "options": [
+      { "key": "a", "text": "The Cd decreases" },
+      { "key": "b", "text": "The Cd stays the same" },
+      { "key": "c", "text": "The Cd increases." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Cd increases and can be greater than 1 as the rocket exceeds Mach 1."
+  },
+  {
+    "id": "tripoli-tech-16",
+    "number": 16,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Drag",
+    "prompt": "For a subsonic rocket, what factors most greatly affect the coefficient of drag (Cd)?",
+    "options": [
+      { "key": "a", "text": "Motor thrust, body diameter, nosecone shape and fin shape" },
+      { "key": "b", "text": "Speed, airframe dimensions, nosecone shape and fin shape" },
+      { "key": "c", "text": "Gravity, airframe dimensions, nosecone shape and fin shape" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "As speed increases, the drag number changes. Length and diameter affect surface area; nose cone shape affects airflow over the front; fin shape and area factor into total surface area."
+  },
+  {
+    "id": "tripoli-tech-17",
+    "number": 17,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Drag",
+    "prompt": "What effect does a boat tail have on a subsonic rocket's coefficient of drag (Cd)?",
+    "options": [
+      { "key": "a", "text": "No effect, a boat tail is only a cosmetic design feature" },
+      { "key": "b", "text": "It increases the Cd by changing the airflow over the fins" },
+      { "key": "c", "text": "It decreases the Cd by reducing the base drag" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A boat tail reduces drag for a subsonic rocket by reducing the base drag from the discontinuity of the air flow as it leaves the end of the rocket."
+  },
+  {
+    "id": "tripoli-tech-18",
+    "number": 18,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Flight Phases",
+    "prompt": "The flight of a high-power rocket can be separated into three portions; they are:",
+    "options": [
+      { "key": "a", "text": "Ignition, burnout and peak altitude" },
+      { "key": "b", "text": "Powered flight, un-powered ascent and peak altitude" },
+      { "key": "c", "text": "Powered flight, un-powered ascent and descent" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "(1) Powered flight – motor producing thrust against gravity and drag; (2) Un-powered ascent – coasting to peak altitude, affected by gravity and drag; (3) Descent – return to Earth."
+  },
+  {
+    "id": "tripoli-tech-19",
+    "number": 19,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Motor Characteristics",
+    "prompt": "Which describes the thrust curve of a regressive motor burn?",
+    "options": [
+      { "key": "a", "text": "A high initial thrust relative to the ending thrust of the motor" },
+      { "key": "b", "text": "A lower initial thrust relative to the ending thrust" },
+      { "key": "c", "text": "The thrust curve is flat" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "As the regressive motor burns, thrust decreases as the burning surface area of the propellant decreases — typical of slotted grains."
+  },
+  {
+    "id": "tripoli-tech-20",
+    "number": 20,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Motor Characteristics",
+    "prompt": "Which describes the thrust curve of a progressive motor?",
+    "options": [
+      { "key": "a", "text": "A general decrease in thrust during the burn" },
+      { "key": "b", "text": "A general increase in thrust during the burn" },
+      { "key": "c", "text": "About the same thrust at ignition as at burnout" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "As a progressive motor burns, thrust increases because the burning surface area increases. Typical of core-burning motors."
+  },
+  {
+    "id": "tripoli-tech-21",
+    "number": 21,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Motor Characteristics",
+    "prompt": "A Bates grain has an essentially neutral thrust curve because:",
+    "options": [
+      { "key": "a", "text": "Core burning motors always have a neutral thrust curve" },
+      { "key": "b", "text": "The area of burning propellant remains relatively constant" },
+      { "key": "c", "text": "The core is centered in the propellant grain" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "As the motor burns from the core out, the ends also burn, making the grains shorter. This keeps the surface area relatively constant for a flat / neutral thrust curve."
+  },
+  {
+    "id": "tripoli-tech-22",
+    "number": 22,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Motor Internals",
+    "prompt": "What is the most common function of a motor liner and the O-ring seals in a solid rocket motor?",
+    "options": [
+      { "key": "a", "text": "To hold all the parts in place prior to ignition of the rocket motor" },
+      { "key": "b", "text": "To make the motor easier to clean if it is a reloadable motor" },
+      { "key": "c", "text": "To keep the hot gasses of the motor from burning or melting the motor case" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The liner keeps burning propellant from touching the motor case (aluminum melts at 1075°F) while the O-rings seal the ends to keep hot gasses going out of the nozzle."
+  },
+  {
+    "id": "tripoli-tech-23",
+    "number": 23,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Propellant Chemistry",
+    "prompt": "What is the most common oxidizer in commercially available high power composite solid rocket motors?",
+    "options": [
+      { "key": "a", "text": "Ammonium Perchlorate" },
+      { "key": "b", "text": "Ammonium Nitrate" },
+      { "key": "c", "text": "Ammonium Chlorate" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ammonium Perchlorate is NH4ClO4 and is used in practically all modern solid rocket motors."
+  },
+  {
+    "id": "tripoli-tech-24",
+    "number": 24,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Propellant Chemistry",
+    "prompt": "What is NH4ClO4?",
+    "options": [
+      { "key": "a", "text": "Ammonium Perchlorate" },
+      { "key": "b", "text": "Ammonium Nitrate" },
+      { "key": "c", "text": "Ammonium Chlorate" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "NH4ClO4 is the chemical formula for Ammonium Perchlorate."
+  },
+  {
+    "id": "tripoli-tech-25",
+    "number": 25,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Airframe Construction",
+    "prompt": "A small hole is typically drilled near the top of a high-power rocket's airframe, below the nosecone or payload section. Why?",
+    "options": [
+      { "key": "a", "text": "This hole vents excessive ejection charge pressure, reducing shock cord stress" },
+      { "key": "b", "text": "The hole permits on-board altimeters to obtain air pressure readings" },
+      { "key": "c", "text": "The hole vents internal air pressure as the rocket gains altitude to prevent premature separation" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Air pressure external to the rocket decreases as it ascends. Trapped (higher) pressure within can prematurely separate the rocket. The hole vents this internal pressure."
+  },
+  {
+    "id": "tripoli-tech-26",
+    "number": 26,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Units & Conversions",
+    "prompt": "How do you convert Newtons of thrust to pounds of thrust?",
+    "options": [
+      { "key": "a", "text": "Add 4.45 to the number of Newtons" },
+      { "key": "b", "text": "Multiply Newtons by 4.45" },
+      { "key": "c", "text": "Divide Newtons by 4.45" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Divide by 4.45."
+  },
+  {
+    "id": "tripoli-tech-27",
+    "number": 27,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Units & Conversions",
+    "prompt": "What is a Newton?",
+    "options": [
+      { "key": "a", "text": "1 kg*m/s" },
+      { "key": "b", "text": "1 kg*m/s^2" },
+      { "key": "c", "text": "1 kg*m" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "kg*m/s^2."
+  },
+  {
+    "id": "tripoli-tech-28",
+    "number": 28,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Hybrid Motors",
+    "prompt": "What is the oxidizer most commonly used in a commercial hybrid rocket motor?",
+    "options": [
+      { "key": "a", "text": "N2O" },
+      { "key": "b", "text": "N2O4" },
+      { "key": "c", "text": "NO2" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "N2O — nitrous oxide, also called NOX."
+  },
+  {
+    "id": "tripoli-tech-29",
+    "number": 29,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Drag",
+    "prompt": "For a rocket with a much less than 10:1 \"length to diameter\" (L/D) ratio, such as spools and pyramids, what type of drag contributes significantly to stability and makes it possible to fly without much, if any, nose weight?",
+    "options": [
+      { "key": "a", "text": "Nose drag" },
+      { "key": "b", "text": "Base drag" },
+      { "key": "c", "text": "Surface drag" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Base drag. Bruce Levison explained how base drag effectively shifts the dynamic CP rearward for short wide rockets, allowing such designs to fly without adding nose weight."
+  },
+  {
+    "id": "tripoli-tech-30",
+    "number": 30,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Air-Start & Cluster",
+    "prompt": "When doing an air-start of an L class motor, which of the following would be considered the safest configuration?",
+    "options": [
+      { "key": "a", "text": "A single computer driving a single initiator" },
+      { "key": "b", "text": "Two computers each driving one initiator with a 0.5 second delay between firing the two initiators" },
+      { "key": "c", "text": "Two computers each driving one initiator with no delay between them" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A single computer driving a single initiator is the safest configuration."
+  },
+  {
+    "id": "tripoli-tech-31",
+    "number": 31,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Air-Start & Cluster",
+    "prompt": "A rocket with a motor cluster consisting of a central composite motor and four black powder motors, using five identical igniters:",
+    "options": [
+      { "key": "a", "text": "Will result in all motors starting about the same time" },
+      { "key": "b", "text": "Will result in the composite motor starting first followed by the black powder motors" },
+      { "key": "c", "text": "Will result in the black powder motors starting first followed by the central composite motor" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Black powder motors ignite as soon as the flame front is encountered. AP composite motors require heat and pressure and typically need at least a half-second before ignition."
+  },
+  {
+    "id": "tripoli-tech-32",
+    "number": 32,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Hybrid Motors",
+    "prompt": "What typically happens to a marginally stable rocket with a hybrid motor during the thrusting phase?",
+    "options": [
+      { "key": "a", "text": "Nothing" },
+      { "key": "b", "text": "The rocket may become more stable" },
+      { "key": "c", "text": "The rocket may become less stable" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "As the CG of the hybrid motor shifts aft, so does the CG of the rocket, which may result in an unstable flight."
+  },
+  {
+    "id": "tripoli-tech-33",
+    "number": 33,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "In general terms, the specific impulse of a rocket motor is:",
+    "options": [
+      { "key": "a", "text": "The total thrust force of a motor throughout its action time" },
+      { "key": "b", "text": "The total impulse divided by a unit weight of propellant" },
+      { "key": "c", "text": "Inversely related to the diameter and length of the propellant grain" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Specific impulse is a measure of propellant efficiency — total impulse divided by unit weight of propellant."
+  },
+  {
+    "id": "tripoli-tech-34",
+    "number": 34,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "In general terms, the total impulse of a rocket motor can be described as:",
+    "options": [
+      { "key": "a", "text": "The product of the average motor thrust and burn time" },
+      { "key": "b", "text": "The product of the propellant weight and burn time" },
+      { "key": "c", "text": "The product of the propellant weight and the motor thrust" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Total impulse is the amount of thrust a motor produces over its action time. E.g., 10 lbs of thrust for 4 seconds = 40 lb-seconds."
+  },
+  {
+    "id": "tripoli-tech-35",
+    "number": 35,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "The average thrust of a rocket motor is 100 Newtons, and the burn time is 4 seconds. What is the total impulse?",
+    "options": [
+      { "key": "a", "text": "25 Newton-seconds" },
+      { "key": "b", "text": "400 Newton-seconds" },
+      { "key": "c", "text": "400 Newtons" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Multiply average thrust (100 N) by burn time (4 s) for 400 N-s."
+  },
+  {
+    "id": "tripoli-tech-36",
+    "number": 36,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "Which of the motors listed below has the highest total impulse?",
+    "options": [
+      { "key": "a", "text": "J200" },
+      { "key": "b", "text": "J400" },
+      { "key": "c", "text": "K200" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "J motors range 641–1280 N-s; K motors range 1281–2560 N-s. The K200 has the highest total impulse."
+  },
+  {
+    "id": "tripoli-tech-37",
+    "number": 37,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "Which of the motors listed below has the highest average thrust?",
+    "options": [
+      { "key": "a", "text": "J200" },
+      { "key": "b", "text": "J400" },
+      { "key": "c", "text": "K200" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Even though the K200 has more total impulse, the J400's average thrust (400 N) exceeds the K200's (200 N)."
+  },
+  {
+    "id": "tripoli-tech-38",
+    "number": 38,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "What is the difference between a J640 and a J320 high power rocket motor (assume full 1280 Newton-second J motors)?",
+    "options": [
+      { "key": "a", "text": "There is no difference between the motors, the numbers are manufacturer reference only" },
+      { "key": "b", "text": "The J320 burns out twice as fast as the J640" },
+      { "key": "c", "text": "The J640 burns out twice as fast as the J320" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Burn time = total impulse / average thrust. J640: 1280/640 = 2 s. J320: 1280/320 = 4 s. The J640 burns twice as fast."
+  },
+  {
+    "id": "tripoli-tech-39",
+    "number": 39,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "Which of the following has a total impulse (It) in the J motor range?",
+    "options": [
+      { "key": "a", "text": "It = 600 Newton-seconds" },
+      { "key": "b", "text": "It = 1000 Newton-seconds" },
+      { "key": "c", "text": "It = 1290 Newton-seconds" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A J motor is in the range of 640.01 to 1280 N-s. 1000 N-s is a midrange J. 600 N-s is an I motor; 1290 N-s is a K motor."
+  },
+  {
+    "id": "tripoli-tech-40",
+    "number": 40,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Units & Conversions",
+    "prompt": "What is a Newton?",
+    "options": [
+      { "key": "a", "text": "The amount of force required to accelerate one pound one foot per second per second" },
+      { "key": "b", "text": "The amount of force required to accelerate one kg one foot per second per second" },
+      { "key": "c", "text": "The amount of force required to accelerate one kg one meter per second per second" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Newton is the metric unit of force — the force required to accelerate one kilogram (2.2 lbs) one meter (39.4 inches) per second per second."
+  },
+  {
+    "id": "tripoli-tech-41",
+    "number": 41,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Impulse & Motor Class",
+    "prompt": "What does the motor designation I220-8 mean?",
+    "options": [
+      { "key": "a", "text": "The motor has between 320-640 N-s of impulse, an average thrust of 220 Newtons, with approximately 8 seconds between motor ignition and ejection" },
+      { "key": "b", "text": "The motor has 220 N-s of impulse, an average thrust of 220 Newtons, with 8 seconds between motor burn-out and ejection" },
+      { "key": "c", "text": "The motor has between 320-640 N-s of impulse, an average thrust of 220 Newtons, with approximately 8 seconds between motor burn-out and ejection" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "An I motor has a total impulse range of 320.01 to 640 N-s. The 220 is average thrust in N, and the -8 is the ejection delay in seconds after burnout."
+  },
+  {
+    "id": "tripoli-tech-42",
+    "number": 42,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Energy & Kinematics",
+    "prompt": "Rocket A is descending at 10 feet per second, rocket B weighs the same but is descending at 20 feet per second. Which statement is true?",
+    "options": [
+      { "key": "a", "text": "The two rockets have the same kinetic energy" },
+      { "key": "b", "text": "Rocket B has two times the kinetic energy of rocket A" },
+      { "key": "c", "text": "Rocket B has four times the kinetic energy of rocket A" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "KE = ½mv². Velocity is squared, so doubling velocity (with the same mass) gives four times the kinetic energy."
+  },
+  {
+    "id": "tripoli-tech-43",
+    "number": 43,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Energy & Kinematics",
+    "prompt": "Rocket A weighs twice as much as rocket B. Both are descending at 20 feet per second. Which statement is true?",
+    "options": [
+      { "key": "a", "text": "The two rockets have the same kinetic energy" },
+      { "key": "b", "text": "Rocket A has two times the kinetic energy of rocket B" },
+      { "key": "c", "text": "Rocket A has four times the kinetic energy of rocket B" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "KE = ½mv². Kinetic energy is directly proportional to mass — doubling the mass doubles the KE."
+  },
+  {
+    "id": "tripoli-tech-44",
+    "number": 44,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Launch System",
+    "prompt": "What is the purpose of a launch rod, rail or tower?",
+    "options": [
+      { "key": "a", "text": "To keep the rocket pointing in the right direction prior to flight" },
+      { "key": "b", "text": "To control the rocket's flight long enough to allow aerodynamic stability" },
+      { "key": "c", "text": "Both a. and b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The launch rod/rail/tower governs the rocket's initial trajectory and guides it long enough to gain sufficient velocity for stable flight."
+  },
+  {
+    "id": "tripoli-tech-45",
+    "number": 45,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Launch System",
+    "prompt": "What is the purpose of a launch lug or rail buttons?",
+    "options": [
+      { "key": "a", "text": "To add drag to the rocket at launch" },
+      { "key": "b", "text": "To guide the rocket along the launch rod or rail" },
+      { "key": "c", "text": "Both a. and b." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Launch lugs / rail buttons attach the rocket to the launch rod or rail so it can be guided at launch."
+  },
+  {
+    "id": "tripoli-tech-46",
+    "number": 46,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Air-Start & Cluster",
+    "prompt": "For a cluster rocket, which construction technique will minimize the effect of one motor failing to ignite?",
+    "options": [
+      { "key": "a", "text": "Make the holes in the forward centering ring slightly closer to the rocket's centerline than those of the aft centering ring" },
+      { "key": "b", "text": "Space the centering rings precisely one motor length apart" },
+      { "key": "c", "text": "Use four smaller fins instead of three larger fins" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "If the axis of the motor passes through or very near the center of gravity, the effect of unbalanced thrust is reduced. Bringing the forward ends of motors closer to the rocket axis helps."
+  },
+  {
+    "id": "tripoli-tech-47",
+    "number": 47,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Air-Start & Cluster",
+    "prompt": "What can happen if all the motors of a cluster do not ignite at launch?",
+    "options": [
+      { "key": "a", "text": "Nothing, if the rocket is inherently stable" },
+      { "key": "b", "text": "The rocket may not fly straight" },
+      { "key": "c", "text": "The rocket will shred" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Not having ignition of all clustered motors results in asymmetric thrust, which may force the rocket into an arc that will not achieve vertical flight."
+  },
+  {
+    "id": "tripoli-tech-48",
+    "number": 48,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Failure Modes",
+    "prompt": "What is a shred?",
+    "options": [
+      { "key": "a", "text": "A failure of the rocket air frame during boost resulting in destruction of the rocket" },
+      { "key": "b", "text": "A failure of the recovery system during boost" },
+      { "key": "c", "text": "A failure of the motor causing early ejection" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A shred occurs when a rocket is improperly built or the motor is too powerful for the rocket, causing the airframe, fins, or other structural parts to fail under load."
+  },
+  {
+    "id": "tripoli-tech-49",
+    "number": 49,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Failure Modes",
+    "prompt": "What is a Cato?",
+    "options": [
+      { "key": "a", "text": "A failure of the rocket resulting in failure of the air frame during boost" },
+      { "key": "b", "text": "A failure of the recovery system during boost" },
+      { "key": "c", "text": "A failure of the motor causing flight termination" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A Cato is short for catastrophic motor failure. It occurs when the nozzle, forward bulkhead, or casing fails. The thrust is abruptly terminated and the rocket fails."
+  },
+  {
+    "id": "tripoli-tech-50",
+    "number": 50,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Ignition",
+    "prompt": "What is the primary requirement for a rocket motor ignitor?",
+    "options": [
+      { "key": "a", "text": "It must transfer sufficient heat to the propellant to assure ignition" },
+      { "key": "b", "text": "It must produce hot, high velocity gasses to assure ignition" },
+      { "key": "c", "text": "It must have a high resistance to be reliable" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A motor igniter must deliver sufficient heat to the propellant to ignite it. This may be in the form of hot gas, hot burning particles, a hot wire, or a combination."
+  },
+  {
+    "id": "tripoli-tech-51",
+    "number": 51,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Motor Internals",
+    "prompt": "Most APCP (ammonium perchlorate composite propellant) rocket motors are central-burning rather than end-burning:",
+    "options": [
+      { "key": "a", "text": "Because most APCP has a specific impulse that is too low for end-burning motors" },
+      { "key": "b", "text": "Because most APCP has a burn rate that is too low for useful end-burners" },
+      { "key": "c", "text": "The premise is incorrect; most APCP motors ARE end-burners" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "APCP has about three times the specific impulse of black powder but burns slowly. It needs a large burning surface area, like a Bates grain or core-burning config, to generate enough hot gas for flight."
+  },
+  {
+    "id": "tripoli-tech-52",
+    "number": 52,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Recovery & Altimeters",
+    "prompt": "Which of the following is most likely in dual-deployment rockets that use a drogue and a main parachute?",
+    "options": [
+      { "key": "a", "text": "The drogue and the main can tangle if not properly arranged" },
+      { "key": "b", "text": "The drogue slows the rocket too much and it drifts too far" },
+      { "key": "c", "text": "The drogue does not slow the rocket enough and it lands hard" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The drogue and main usually must be arranged to eject from separate sections to minimize tangling. In some cases a drogue isn't used at all to avoid the problem."
+  },
+  {
+    "id": "tripoli-tech-53",
+    "number": 53,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Recovery & Altimeters",
+    "prompt": "When using an accelerometer-based altimeter in a rocket that may exceed Mach 1:",
+    "options": [
+      { "key": "a", "text": "A \"Mach delay\" must be built into the altimeter to avoid deployment of the recovery system at Mach" },
+      { "key": "b", "text": "One or more access holes must be drilled in the electronics bay to permit access to the atmosphere during flight" },
+      { "key": "c", "text": "Neither a. nor b. need be done" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Accelerometers measure acceleration entirely within the chip. Access to the atmosphere isn't required, and air pressure changes at Mach 1 don't affect the accelerometer chip."
+  },
+  {
+    "id": "tripoli-tech-54",
+    "number": 54,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Recovery & Altimeters",
+    "prompt": "When using a pressure-sensor altimeter in a rocket that will not reach Mach 1:",
+    "options": [
+      { "key": "a", "text": "One or more access holes must be drilled at the base of the nose cone to permit access to the atmosphere during flight" },
+      { "key": "b", "text": "A timer, but not a motor delay, may be used as backup for deployment" },
+      { "key": "c", "text": "One or more holes must be drilled in the electronics bay for atmospheric access" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A pressure-sensor altimeter requires access to the atmosphere, so the electronics bay must be vented."
+  },
+  {
+    "id": "tripoli-tech-55",
+    "number": 55,
+    "cert": "tripoli",
+    "section": "technical",
+    "topic": "Recovery & Altimeters",
+    "prompt": "What is the major issue with accelerometer-based altimeters?",
+    "options": [
+      { "key": "a", "text": "They are larger, and usually much more expensive, than pressure-sensor altimeters." },
+      { "key": "b", "text": "They do not have multiple capabilities such as dual deployment, ignition of air-starts, etc." },
+      { "key": "c", "text": "They may not deploy properly if the flight is significantly off-vertical" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Accelerometers can be small, inexpensive, and capable. But the electronics assume a near-vertical flight, so significant deviation from vertical may cause problems."
+  }
+]

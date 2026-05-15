@@ -1,0 +1,146 @@
+[
+  {
+    "id": "nar-B-1",
+    "number": 1,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Letter Class",
+    "prompt": "What does the \"H\" in the motor designation H100-5 stand for?",
+    "options": [
+      { "key": "A", "text": "It is the first letter in the manufacturer's name" },
+      { "key": "B", "text": "It indicates the total power range or impulse range of the rocket motor" },
+      { "key": "C", "text": "It indicates the total thrust of the rocket motor" },
+      { "key": "D", "text": "It indicates that the motor uses black powder as a propellant" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a rocket motor designation, the alphabetic character indicates the total impulse range. H = 160.01–320 N-s, I = 320.01–640, J = 640.01–1280, K = 1280.01–2560, L = 2560.01–5120, M = 5120.01–10240, N = 10240.01–20480, O = 20480.01–40960. Impulse doubles with each letter."
+  },
+  {
+    "id": "nar-B-2",
+    "number": 2,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Average Thrust",
+    "prompt": "What does the \"100\" in the motor designation H100-5 stand for?",
+    "options": [
+      { "key": "A", "text": "It is the peak thrust in pounds of the rocket motor" },
+      { "key": "B", "text": "It is the rocket motor burn time in seconds" },
+      { "key": "C", "text": "It is the average thrust in Newtons of the rocket motor" },
+      { "key": "D", "text": "It is the manufacturer's retail price code" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The number after the impulse letter is the average thrust in Newtons. Divide by 4.45 for pounds."
+  },
+  {
+    "id": "nar-B-3",
+    "number": 3,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Ejection Delay",
+    "prompt": "What does the \"5\" in the motor designation H100-5 stand for?",
+    "options": [
+      { "key": "A", "text": "It is the rocket motor burn time" },
+      { "key": "B", "text": "It is the peak thrust (in kilograms) of the rocket motor" },
+      { "key": "C", "text": "It is the average thrust of the rocket motor" },
+      { "key": "D", "text": "It is the ejection charge delay time" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The number after the dash is the delay in seconds between burnout and ejection. A \"0\" delay indicates a booster motor (no ejection charge). \"P\" indicates a plugged motor (no ejection)."
+  },
+  {
+    "id": "nar-B-4",
+    "number": 4,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Average Thrust",
+    "prompt": "What are the units of measurement for the \"100\" in the motor designation H100-5?",
+    "options": [
+      { "key": "A", "text": "Newtons per second" },
+      { "key": "B", "text": "Newtons" },
+      { "key": "C", "text": "Newton-seconds" },
+      { "key": "D", "text": "Feet per second" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The number after the impulse letter is the average thrust in Newtons. Divide by 4.45 for pounds."
+  },
+  {
+    "id": "nar-B-5",
+    "number": 5,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Letter Class",
+    "prompt": "What is the maximum allowable impulse for a \"J\" rocket motor?",
+    "options": [
+      { "key": "A", "text": "320.00 Newton-seconds" },
+      { "key": "B", "text": "640.00 Newton-seconds" },
+      { "key": "C", "text": "1280.00 Newton-seconds" },
+      { "key": "D", "text": "2560.00 Newton-seconds" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The upper end of each motor class's range is its maximum allowable impulse. J = 1280 N-s."
+  },
+  {
+    "id": "nar-B-6",
+    "number": 6,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Letter Class",
+    "prompt": "Assuming that each motor has the full allowable impulse, how many \"H\" motors have the same total impulse as a single \"J\" motor?",
+    "options": [
+      { "key": "A", "text": "3 motors" },
+      { "key": "B", "text": "1 motor" },
+      { "key": "C", "text": "2 motors" },
+      { "key": "D", "text": "4 motors" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Full H = 320 N-s, full J = 1280 N-s. 4 × 320 = 1280."
+  },
+  {
+    "id": "nar-B-7",
+    "number": 7,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Burn Time",
+    "prompt": "You have an H64-8 rocket motor which has been certified to have a total impulse of 320.00 Newton-seconds. What is the approximate burn time for this motor?",
+    "options": [
+      { "key": "A", "text": "3 seconds" },
+      { "key": "B", "text": "5 seconds" },
+      { "key": "C", "text": "8 seconds" },
+      { "key": "D", "text": "10 seconds" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Burn time = total impulse / average thrust = 320 / 64 = 5 seconds."
+  },
+  {
+    "id": "nar-B-8",
+    "number": 8,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Letter Class",
+    "prompt": "The manufacturer's test data shows a total impulse of 690 Newton-seconds for your motor. What impulse class does your motor represent?",
+    "options": [
+      { "key": "A", "text": "\"H\"" },
+      { "key": "B", "text": "\"I\"" },
+      { "key": "C", "text": "\"J\"" },
+      { "key": "D", "text": "\"K\"" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "J motor range is 640.01 to 1280 N-s. 690 N-s is a low J."
+  },
+  {
+    "id": "nar-B-9",
+    "number": 9,
+    "cert": "nar",
+    "section": "motor-designations",
+    "topic": "Letter Class",
+    "prompt": "The manufacturer's test data shows an average thrust of 100 Newtons for 6 seconds for your motor. What impulse class does your motor represent?",
+    "options": [
+      { "key": "A", "text": "\"H\"" },
+      { "key": "B", "text": "\"I\"" },
+      { "key": "C", "text": "\"J\"" },
+      { "key": "D", "text": "\"K\"" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Total impulse = 100 N × 6 s = 600 N-s. I motor range is 320.01–640 N-s."
+  }
+]

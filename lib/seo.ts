@@ -4,8 +4,7 @@ import { Cert, CERT_META, Question } from "./questions";
 export const SITE = {
   name: "Rocket Cert Prep",
   tagline: "Free practice exams and study tools for NAR & Tripoli Level 2 high-power rocketry certification.",
-  url: "https://rocketcertprep.com",
-  twitter: "@rocketcertprep",
+  url: "https://rockettestprep.austinthemighty.com",
   defaultDescription:
     "Free practice exams, flashcards, and study guides for the NAR Level 2 and Tripoli Level 2 high-power rocketry certification exams. Full question banks, instant feedback, mobile-friendly.",
 };

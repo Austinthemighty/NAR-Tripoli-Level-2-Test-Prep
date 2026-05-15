@@ -1,0 +1,151 @@
+[
+  {
+    "id": "nar-D-1",
+    "number": 1,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Stability Basics",
+    "prompt": "For a rocket to be stable, which of the following statements is true?",
+    "options": [
+      { "key": "A", "text": "The center of pressure (CP) must be behind the center of gravity (CG)" },
+      { "key": "B", "text": "The center of pressure (CP) must be in front of the center of gravity (CG)" },
+      { "key": "C", "text": "The rocket must have fins" },
+      { "key": "D", "text": "The length of the body tube must be at least 5 times the model diameter" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CP must be behind the CG for stable flight.",
+    "reference": "Handbook of Model Rocketry, G. Harry Stine, 7th ed., Ch. 9"
+  },
+  {
+    "id": "nar-D-2",
+    "number": 2,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Correcting Instability",
+    "prompt": "An unstable rocket can be made stable by:",
+    "options": [
+      { "key": "A", "text": "Adding sufficient weight to the nose cone" },
+      { "key": "B", "text": "Removing sufficient weight from the nose cone" },
+      { "key": "C", "text": "Moving the fins sufficiently forward towards the nose cone" },
+      { "key": "D", "text": "Making the rocket sufficiently shorter" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adding weight to the nose moves the CG forward of the CP, making the rocket stable."
+  },
+  {
+    "id": "nar-D-3",
+    "number": 3,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Estimating Stability",
+    "prompt": "Rocket stability can be estimated by:",
+    "options": [
+      { "key": "A", "text": "Center of pressure \"Barrowman\" equations" },
+      { "key": "B", "text": "\"Cardboard cutout\" method" },
+      { "key": "C", "text": "Determining the relative positions of the center of pressure (CP) and center of gravity (CG)" },
+      { "key": "D", "text": "Stability cannot be estimated before a test flight." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Barrowman and cardboard-cutout methods estimate CP only — half of what's needed. CG location must also be known.",
+    "reference": "Handbook of Model Rocketry, G. Harry Stine, 7th ed., Ch. 9"
+  },
+  {
+    "id": "nar-D-4",
+    "number": 4,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Estimating Stability",
+    "prompt": "A rocket's center of pressure can be estimated by using:",
+    "options": [
+      { "key": "A", "text": "The \"Barrowman\" method" },
+      { "key": "B", "text": "Finding the point where the model balances" },
+      { "key": "C", "text": "The \"cardboard cutout\" method" },
+      { "key": "D", "text": "Both \"A\" and \"C\" above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Both Barrowman equations and the cardboard-cutout method estimate CP. Balancing the model would find the CG, not CP.",
+    "reference": "Handbook of Model Rocketry, G. Harry Stine, 7th ed., Ch. 9, App. II, App. IV"
+  },
+  {
+    "id": "nar-D-5",
+    "number": 5,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Correcting Instability",
+    "prompt": "An unstable rocket can usually be made stable by:",
+    "options": [
+      { "key": "A", "text": "Using a shorter nose cone" },
+      { "key": "B", "text": "Increasing the size of the aft fins" },
+      { "key": "C", "text": "Using a larger, heavier rocket motor" },
+      { "key": "D", "text": "Increasing the rocket diameter" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Larger aft fins move the CP aft. A shorter nose cone or heavier motor moves CG aft, which is the wrong direction. Diameter has little effect on stability."
+  },
+  {
+    "id": "nar-D-6",
+    "number": 6,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "In-flight Stability",
+    "prompt": "During boost, a rocket powered by a solid rocket motor tends to:",
+    "options": [
+      { "key": "A", "text": "Become less stable in flight" },
+      { "key": "B", "text": "Become more stable in flight" },
+      { "key": "C", "text": "Have no change in stability" },
+      { "key": "D", "text": "Become unstable" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "As the motor burns, the aft end becomes lighter and CG moves forward away from CP, enhancing stability. Increasing rocket speed also makes the fins more effective."
+  },
+  {
+    "id": "nar-D-7",
+    "number": 7,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Causes of Instability",
+    "prompt": "Which of the following can cause unstable flight?",
+    "options": [
+      { "key": "A", "text": "Weak tubes or couplers that permit airframe bending" },
+      { "key": "B", "text": "Misaligned motor mount tube or motor nozzle" },
+      { "key": "C", "text": "Inadequate airspeed leaving the launch pad on a windy day" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All can cause unstable flight: bending rockets loop, misaligned thrust vectors deflect, and slow-leaving rockets see high angle of attack from wind."
+  },
+  {
+    "id": "nar-D-8",
+    "number": 8,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Stability Margin",
+    "prompt": "As a rule of thumb, how far should the center of pressure be from the center of gravity?",
+    "options": [
+      { "key": "A", "text": "The center of pressure should be at the same location as the center of gravity" },
+      { "key": "B", "text": "The center of pressure should be at least 1.0 body tube diameters behind (aft) the center of gravity" },
+      { "key": "C", "text": "The center of pressure should be at least 1.0 body tube diameters ahead (forward) of the center of gravity" },
+      { "key": "D", "text": "The center of pressure should be 1.0 body tube diameters ahead (forward) of the fin leading edge; the center of gravity does not matter" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "At least one body tube diameter of separation, with CP aft of CG.",
+    "reference": "Handbook of Model Rocketry, G. Harry Stine, 7th ed., Ch. 9"
+  },
+  {
+    "id": "nar-D-9",
+    "number": 9,
+    "cert": "nar",
+    "section": "stability",
+    "topic": "Stability Definition",
+    "prompt": "The definition of Positive Stability in regards to a rocket is:",
+    "options": [
+      { "key": "A", "text": "Where the center of gravity (CG) is located ahead (forward) of the center of pressure (CP)" },
+      { "key": "B", "text": "Where the center of gravity (CG) and the center of pressure (CP) lie at the same locations" },
+      { "key": "C", "text": "Where the center of gravity (CG) is located behind (aft) of the center of pressure (CP)" },
+      { "key": "D", "text": "None of the above" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Positive Stability = CG ahead of CP. Neutral = CG and CP coincident (no restoring force). Negative = CG behind CP (rocket flies tail-first).",
+    "reference": "Handbook of Model Rocketry, G. Harry Stine, 7th ed., Ch. 9"
+  }
+]

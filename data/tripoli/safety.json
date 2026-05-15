@@ -1,0 +1,850 @@
+[
+  {
+    "id": "tripoli-safety-1",
+    "number": 1,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safety Code Purpose",
+    "prompt": "What is the purpose of the Tripoli Unified Safety Code?",
+    "options": [
+      { "key": "a", "text": "Establish guidelines for reasonably safe operation of rockets at a Tripoli launch" },
+      { "key": "b", "text": "Establish guidelines for building of rockets at a Tripoli launch" },
+      { "key": "c", "text": "Establish guidelines for the building of motors at a Tripoli launch" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The Tripoli Unified Safety Code (TUSC) establishes guidelines for the reasonably safe operation of rockets at a Tripoli launch.",
+    "reference": "TUSC 1-2.1"
+  },
+  {
+    "id": "tripoli-safety-2",
+    "number": 2,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Responsibility & Authorities",
+    "prompt": "Although Tripoli launches involve several layers of safety rules intended to increase safety, _____ is ultimately responsible for the rocket and flight?",
+    "options": [
+      { "key": "a", "text": "The Range safety officer" },
+      { "key": "b", "text": "The launch Director" },
+      { "key": "c", "text": "The flier" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The flier is ultimately responsible for the rocket and the flight.",
+    "reference": "TUSC 7-1"
+  },
+  {
+    "id": "tripoli-safety-3",
+    "number": 3,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Stability Documentation",
+    "prompt": "The flier shall document the location of the center of ____ and be able to demonstrate the center of _____ ? (Answer in order of blanks)",
+    "options": [
+      { "key": "a", "text": "Gravity, Pressure" },
+      { "key": "b", "text": "Pressure, Gravity" },
+      { "key": "c", "text": "Pressure, Thrust" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Document the center of pressure; demonstrate the center of gravity.",
+    "reference": "TUSC 7-1.2"
+  },
+  {
+    "id": "tripoli-safety-4",
+    "number": 4,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Research Motors",
+    "prompt": "Which of the following motor types are not allowed to be made and flown by a Level 2 flier as a research motor?",
+    "options": [
+      { "key": "a", "text": "Research Black Powder Motor" },
+      { "key": "b", "text": "Liquid rocket motors (except nitrous oxide hybrids)" },
+      { "key": "c", "text": "Both a. and b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Neither research black powder motors nor liquid rocket motors (except N2O hybrids) may be made and flown by an L2 as research motors.",
+    "reference": "TUSC 10-8"
+  },
+  {
+    "id": "tripoli-safety-5",
+    "number": 5,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Payloads",
+    "prompt": "Rockets flown at Tripoli launches may carry:",
+    "options": [
+      { "key": "a", "text": "Vertebrate Animals" },
+      { "key": "b", "text": "Hazardous payloads including those which are poisonous, flammable, incendiary, or explosive" },
+      { "key": "c", "text": "Neither a. nor b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Neither vertebrate animals nor hazardous payloads.",
+    "reference": "TUSC 7-9"
+  },
+  {
+    "id": "tripoli-safety-6",
+    "number": 6,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is the Authority Having Jurisdiction (AHJ)?",
+    "options": [
+      { "key": "a", "text": "The organization, office or individual responsible for enforcing requirements of a code or standard, or for approving equipment, materials, an installation or a procedure" },
+      { "key": "b", "text": "A court proceeding that rule on high power rocketry activities" },
+      { "key": "c", "text": "The individual preparing a high-power rocket for flight" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The AHJ is the organization, office, or individual responsible for enforcing requirements of a code or standard.",
+    "reference": "TUSC 15 — Definition of AHJ"
+  },
+  {
+    "id": "tripoli-safety-7",
+    "number": 7,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is a complex high-power rocket?",
+    "options": [
+      { "key": "a", "text": "A rocket having more than one stage" },
+      { "key": "b", "text": "A rocket having a cluster of rocket motors" },
+      { "key": "c", "text": "Either a. or b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A complex high-power rocket is either multi-stage or has a cluster of motors.",
+    "reference": "TUSC 15 — Definition of Complex Rocket"
+  },
+  {
+    "id": "tripoli-safety-8",
+    "number": 8,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What are the minimum criteria that define a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "A rocket with a single motor with more than 160 Newton-seconds total impulse or an installed impulse of 320 Newton-seconds and no more than 40,960 Newton-seconds" },
+      { "key": "b", "text": "A rocket with a single motor having an average thrust in excess of 80 Newtons or any sparky rocket motor (usually using titanium pieces)" },
+      { "key": "c", "text": "Either a. or b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Either condition defines a high-power rocket.",
+    "reference": "TUSC 15 — Definition of High Power Rocket/Motor"
+  },
+  {
+    "id": "tripoli-safety-9",
+    "number": 9,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is the maximum weight of a model rocket with motors installed?",
+    "options": [
+      { "key": "a", "text": "53 oz. (1500 g)" },
+      { "key": "b", "text": "1 lb. (453.6 g)" },
+      { "key": "c", "text": "There is no maximum weight limit to a model rocket" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "53 oz / 1500 g maximum with motors installed.",
+    "reference": "TUSC 15 — Definition of Model Rocket"
+  },
+  {
+    "id": "tripoli-safety-10",
+    "number": 10,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Recovery",
+    "prompt": "When is an active recovery device not necessary in a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "When the high-power rocket is intended for ballistic flight" },
+      { "key": "b", "text": "When the rocket has a bursting charge" },
+      { "key": "c", "text": "When the rocket employs a passive recovery system (e.g.: tumble recovery, aero-braking)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "An active recovery device isn't required when a passive recovery system is used.",
+    "reference": "TUSC 11-2"
+  },
+  {
+    "id": "tripoli-safety-11",
+    "number": 11,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Weather",
+    "prompt": "Range activity shall cease whenever a thunderstorm has been detected within ____ miles (kilometers) of the launch site?",
+    "options": [
+      { "key": "a", "text": "5 (8 kilometers)" },
+      { "key": "b", "text": "10 (16 kilometers)" },
+      { "key": "c", "text": "20 (32 kilometers)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "10 miles / 16 km.",
+    "reference": "TUSC 7-10"
+  },
+  {
+    "id": "tripoli-safety-12",
+    "number": 12,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "At what total impulse and/or average thrust does a motor become high power?",
+    "options": [
+      { "key": "a", "text": "A rocket motor with more than 80 Newton-seconds of total impulse and 80 Newtons average thrust" },
+      { "key": "b", "text": "A rocket motor with more than 160 Newton-seconds of total impulse or 80 Newtons average thrust" },
+      { "key": "c", "text": "A rocket motor with more than 160 Newton-seconds of total impulse and 160 Newtons average thrust" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "More than 160 N-s total impulse OR 80 N average thrust.",
+    "reference": "TUSC 15 — Definition of High-Power Rocket Motor"
+  },
+  {
+    "id": "tripoli-safety-13",
+    "number": 13,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Stability Documentation",
+    "prompt": "While a 3:1 average thrust to weight ratio is the absolute minimum established in the Tripoli Unified Safety Code, what is the typical initial minimum thrust to weight ratio for a rocket?",
+    "options": [
+      { "key": "a", "text": "4:1" },
+      { "key": "b", "text": "5:1" },
+      { "key": "c", "text": "12:1" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "5:1 is the typical initial minimum thrust-to-weight ratio.",
+    "reference": "TUSC 7-1.4"
+  },
+  {
+    "id": "tripoli-safety-14",
+    "number": 14,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Responsibility & Authorities",
+    "prompt": "Who may operate a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "Any member of a nationally recognized rocketry organization" },
+      { "key": "b", "text": "Only those licensed by the federal government" },
+      { "key": "c", "text": "A certified user as defined in the Tripoli Unified Safety Code" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A certified user as defined in the TUSC.",
+    "reference": "TUSC 15 — Definition of High-Power Rocket Flier (HPR Flier)"
+  },
+  {
+    "id": "tripoli-safety-15",
+    "number": 15,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Regulations",
+    "prompt": "What operating clearances must be complied with for flying high power rockets?",
+    "options": [
+      { "key": "a", "text": "The Tripoli Unified Safety Code" },
+      { "key": "b", "text": "The Tripoli Unified Safety Code, Regulations controlling airspace for country of launch and any other applicable federal, state and local regulations" },
+      { "key": "c", "text": "NFPA and the FAA" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "TUSC plus airspace regulations and any other applicable federal, state, and local regulations.",
+    "reference": "TUSC 3-1 (1.1, 1.2, 1.3)"
+  },
+  {
+    "id": "tripoli-safety-16",
+    "number": 16,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Construction",
+    "prompt": "What criteria apply to the construction of a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "Use suitable materials to withstand operating stresses and retain structural integrity in flight" },
+      { "key": "b", "text": "Use only the lightest weight materials for the construction of high-power rockets" },
+      { "key": "c", "text": "Use materials that allow minimal flex of the rocket in flight" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Materials must withstand operating stresses and retain structural integrity.",
+    "reference": "TUSC 7-1.1"
+  },
+  {
+    "id": "tripoli-safety-17",
+    "number": 17,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Stability Documentation",
+    "prompt": "When must the stability of a rocket be determined?",
+    "options": [
+      { "key": "a", "text": "If the safety monitor requests it" },
+      { "key": "b", "text": "During the design of the rocket" },
+      { "key": "c", "text": "When the rocket is prepared for flight" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Stability must be determined when the rocket is prepared for flight.",
+    "reference": "TUSC 7-1.2"
+  },
+  {
+    "id": "tripoli-safety-18",
+    "number": 18,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Responsibility & Authorities",
+    "prompt": "Who can override an RSO decision pertaining to safety?",
+    "options": [
+      { "key": "a", "text": "RSO decisions pertaining to safety are final and may not be overridden by any other range personnel including the launch director" },
+      { "key": "b", "text": "The Launch Director" },
+      { "key": "c", "text": "A Tripoli BOD member, prefect, or TAP" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "RSO safety decisions are final.",
+    "reference": "TUSC 8-3"
+  },
+  {
+    "id": "tripoli-safety-19",
+    "number": 19,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Recovery",
+    "prompt": "When is it permissible to catch a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "If the rocket weighs less than 2.2 pounds or 1 kg" },
+      { "key": "b", "text": "It is never permissible to catch a high-power rocket" },
+      { "key": "c", "text": "If the rocket is falling slowly enough that it is deemed not to be a hazard" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "It is never permissible to catch a high-power rocket.",
+    "reference": "TUSC 11-5"
+  },
+  {
+    "id": "tripoli-safety-20",
+    "number": 20,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Responsibility & Authorities",
+    "prompt": "Except for pertaining to safety, who may override a launch directors' decision?",
+    "options": [
+      { "key": "a", "text": "The LCO" },
+      { "key": "b", "text": "A Tripoli BOD member, prefect or TAP" },
+      { "key": "c", "text": "Except for pertaining to safety, the launch director's decision is final and cannot be overridden" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Outside of safety, the LD's decision is final.",
+    "reference": "TUSC 8-4"
+  },
+  {
+    "id": "tripoli-safety-21",
+    "number": 21,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Launch Equipment",
+    "prompt": "When must a high power rocket launching device incorporate a blast deflector?",
+    "options": [
+      { "key": "a", "text": "When necessary to prevent damage or reduce risk of fire" },
+      { "key": "b", "text": "All launch systems must incorporate a blast deflector" },
+      { "key": "c", "text": "When the design of the launch device requires it" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "When necessary to prevent damage or reduce risk of fire.",
+    "reference": "TUSC 7-5"
+  },
+  {
+    "id": "tripoli-safety-22",
+    "number": 22,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Launch Conditions",
+    "prompt": "What is the maximum launch angle from vertical for a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "30°" },
+      { "key": "b", "text": "20°" },
+      { "key": "c", "text": "There is no maximum launch angle" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "20° maximum.",
+    "reference": "TUSC 13-6"
+  },
+  {
+    "id": "tripoli-safety-23",
+    "number": 23,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Ignition",
+    "prompt": "What are the elements of an ignition system?",
+    "options": [
+      { "key": "a", "text": "Wireless controlled, electrically operated, a launch switch that returns to OFF when released" },
+      { "key": "b", "text": "Wireless controlled, electrically operated and a removable safety interlock in series with the launch switch" },
+      { "key": "c", "text": "Includes an arming switch with a removable key or interlock, which disables the entire launch control system when removed and uses a momentary switch to command the rocket motor ignition" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Arming switch with removable key/interlock plus momentary firing switch.",
+    "reference": "TUSC 7-7.1, 7-7.2"
+  },
+  {
+    "id": "tripoli-safety-24",
+    "number": 24,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Ignition",
+    "prompt": "When shall the motor ignitor(s) be installed in a high-power rocket motor?",
+    "options": [
+      { "key": "a", "text": "At the launcher or a designated prep area" },
+      { "key": "b", "text": "When the motor is installed in the rocket" },
+      { "key": "c", "text": "Neither a. nor b." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "At the launcher or a designated prep area.",
+    "reference": "TUSC 13-7"
+  },
+  {
+    "id": "tripoli-safety-25",
+    "number": 25,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Ignition",
+    "prompt": "When may the physical disconnects that inhibit energetics be connected to power?",
+    "options": [
+      { "key": "a", "text": "In the flier Prep area" },
+      { "key": "b", "text": "At the pad or other designated range area as indicated by the launch director" },
+      { "key": "c", "text": "Both a. and b." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "At the pad or other designated range area indicated by the launch director.",
+    "reference": "TUSC 13-8"
+  },
+  {
+    "id": "tripoli-safety-26",
+    "number": 26,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is a class 1 rocket?",
+    "options": [
+      { "key": "a", "text": "A model rocket with a G motor or smaller" },
+      { "key": "b", "text": "A model rocket with more than 125 g (4.4 oz.) of propellant and more than 1500 g (53 oz.) pad weight" },
+      { "key": "c", "text": "A model rocket with 125 g (4.4 oz.) or less of propellant and 1500 g (53 oz.) or less pad weight" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Class 1 = model rocket: ≤125 g of propellant and ≤1500 g pad weight.",
+    "reference": "TUSC 15 — Definition of Model Rocket"
+  },
+  {
+    "id": "tripoli-safety-27",
+    "number": 27,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Launch Site",
+    "prompt": "What is the launch site criteria?",
+    "options": [
+      { "key": "a", "text": "No less than one-quarter the maximum altitude expected or granted by the FAA" },
+      { "key": "b", "text": "No less than 1500 feet (457 m)" },
+      { "key": "c", "text": "Both a. and b." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Both: at least 1/4 the max expected altitude AND at least 1500 ft.",
+    "reference": "TUSC 13-16.1"
+  },
+  {
+    "id": "tripoli-safety-28",
+    "number": 28,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safe Distances",
+    "prompt": "What is the minimum distance from a launch site to any person or property not associated with the operation?",
+    "options": [
+      { "key": "a", "text": "1000 feet (305 m)" },
+      { "key": "b", "text": "1500 feet (457 m)" },
+      { "key": "c", "text": "No minimum distance if the building occupants are informed of the activity." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "1500 ft (457 m).",
+    "reference": "TUSC 13-16.1"
+  },
+  {
+    "id": "tripoli-safety-29",
+    "number": 29,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safe Distances",
+    "prompt": "How close can spectators be to a high-power rocket launch?",
+    "options": [
+      { "key": "a", "text": "At the distance defined by the Safe Distances Table" },
+      { "key": "b", "text": "Half the distance defined in the Safe Distance Table" },
+      { "key": "c", "text": "Double the distance defined in the Safe Distance Table" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "At the distance defined by the Safe Distance Table.",
+    "reference": "TUSC 13-17 Safe Distance Table"
+  },
+  {
+    "id": "tripoli-safety-30",
+    "number": 30,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Weather",
+    "prompt": "What is the maximum altitude allowed for flying high power rockets if there is a cloud ceiling of 3,000 feet (914 m) and an FAA waiver to 15,000 feet (4572 m)?",
+    "options": [
+      { "key": "a", "text": "Up to 15,000 feet (4572 m)" },
+      { "key": "b", "text": "Up to 3,500 feet (1067 m)" },
+      { "key": "c", "text": "Up to 3,000 feet (914 m)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Up to the cloud ceiling: 3,000 ft.",
+    "reference": "TUSC 9-6"
+  },
+  {
+    "id": "tripoli-safety-31",
+    "number": 31,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Weather",
+    "prompt": "What is the limit of surface wind for launching a high-power rocket?",
+    "options": [
+      { "key": "a", "text": "30 MPH (48 km/h)" },
+      { "key": "b", "text": "20 MPH (32 km/h)" },
+      { "key": "c", "text": "15 MPH (24 km/h)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "20 MPH / 32 km/h.",
+    "reference": "TUSC 9-3"
+  },
+  {
+    "id": "tripoli-safety-32",
+    "number": 32,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Launch Procedures",
+    "prompt": "When may a high-power rocket be launched?",
+    "options": [
+      { "key": "a", "text": "After warning the spectators and after giving a 5 second countdown" },
+      { "key": "b", "text": "When all systems are ready and after giving a 5 second countdown" },
+      { "key": "c", "text": "After announcing the rocket and after giving a 5 second countdown" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "After announcing the rocket and giving a 5-second countdown.",
+    "reference": "TUSC 9-1, 9-2"
+  },
+  {
+    "id": "tripoli-safety-33",
+    "number": 33,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is a class 2 rocket?",
+    "options": [
+      { "key": "a", "text": "A rocket other than a model rocket propelled by motors with greater than a combined total impulse of 640 N-s (143.9 lb-s)" },
+      { "key": "b", "text": "A rocket other than a model rocket propelled by motors with greater than a combined total impulse of 40960 N-s (9208 lb-s)" },
+      { "key": "c", "text": "A rocket other than a model rocket propelled by motors with less than a combined total impulse of 40960 N-s (9208 lb-s)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Class 2 = not a model rocket and propelled by motors with combined total impulse less than 40,960 N-s.",
+    "reference": "TUSC 15 — Definition of High Power Rocket"
+  },
+  {
+    "id": "tripoli-safety-34",
+    "number": 34,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safe Distances",
+    "prompt": "What is the minimum distance for smoking (or open flames) from high power rocket motors, motor reloading kits and pyrotechnic modules?",
+    "options": [
+      { "key": "a", "text": "10 feet (3m)" },
+      { "key": "b", "text": "25 feet (8m)" },
+      { "key": "c", "text": "There is no minimum distance" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "25 feet / 8 m.",
+    "reference": "TUSC 13-14.1"
+  },
+  {
+    "id": "tripoli-safety-35",
+    "number": 35,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Ignition",
+    "prompt": "When are you allowed to install an igniter or head end ignition module into any motor including a multistage, cluster or air start type rocket?",
+    "options": [
+      { "key": "a", "text": "In the flier prep area" },
+      { "key": "b", "text": "At the RSO table" },
+      { "key": "c", "text": "At the pad or other designated area as established by the launch director" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "At the pad or designated area as established by the LD.",
+    "reference": "TUSC 13-7"
+  },
+  {
+    "id": "tripoli-safety-36",
+    "number": 36,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Special Vehicles",
+    "prompt": "An R/C Rocket Boosted Glider (RBG) may be launched in which direction in regard to the flightline?",
+    "options": [
+      { "key": "a", "text": "Parallel to or away from" },
+      { "key": "b", "text": "Parallel to or towards" },
+      { "key": "c", "text": "There is no direction requirement" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Parallel to or away from the flightline.",
+    "reference": "TUSC 14-3.8"
+  },
+  {
+    "id": "tripoli-safety-37",
+    "number": 37,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "At what impulse does a class 3 rocket start?",
+    "options": [
+      { "key": "a", "text": "Above 5120 N-s (1151 lb-s)" },
+      { "key": "b", "text": "Below 40960 N-s (9208 lb-s)" },
+      { "key": "c", "text": "Above 40960 N-s (9208 lb-s)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Class 3 = above 40,960 N-s.",
+    "reference": "TUSC 15 — Definition of Class 3 Rocket"
+  },
+  {
+    "id": "tripoli-safety-38",
+    "number": 38,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Special Vehicles",
+    "prompt": "Test flights or first flights of R/C RBG shall be launched from the distance specified by the total installed impulse in the Safe Distance Table plus _____ Ft?",
+    "options": [
+      { "key": "a", "text": "0" },
+      { "key": "b", "text": "50" },
+      { "key": "c", "text": "100" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Plus 100 ft.",
+    "reference": "TUSC 14-3.3"
+  },
+  {
+    "id": "tripoli-safety-39",
+    "number": 39,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Model Rockets",
+    "prompt": "What is the maximum angle (in degrees) from vertical a model rocket can be launched from?",
+    "options": [
+      { "key": "a", "text": "30" },
+      { "key": "b", "text": "20" },
+      { "key": "c", "text": "10" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "30° from vertical for model rockets.",
+    "reference": "TUSC 12-1"
+  },
+  {
+    "id": "tripoli-safety-40",
+    "number": 40,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Model Rockets",
+    "prompt": "The minimum safe distance to any spectator when a model rocket is launched shall be _____ Ft?",
+    "options": [
+      { "key": "a", "text": "30" },
+      { "key": "b", "text": "50" },
+      { "key": "c", "text": "100" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "50 ft minimum.",
+    "reference": "TUSC 12-4"
+  },
+  {
+    "id": "tripoli-safety-41",
+    "number": 41,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safe Distances",
+    "prompt": "The minimum distance for all involved rockets shall be the complex distance for the total installed impulse of the motors in all rockets when _____ or more rockets are launched simultaneously?",
+    "options": [
+      { "key": "a", "text": "1" },
+      { "key": "b", "text": "2" },
+      { "key": "c", "text": "3" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "3 or more rockets launched simultaneously.",
+    "reference": "TUSC 13-13.1"
+  },
+  {
+    "id": "tripoli-safety-42",
+    "number": 42,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Research Motors",
+    "prompt": "When can steel nozzles be used in research motors?",
+    "options": [
+      { "key": "a", "text": "When the nozzle throat is recessed within the case of a sugar motor" },
+      { "key": "b", "text": "On any research motor" },
+      { "key": "c", "text": "Never" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "When the nozzle throat is recessed within the case of a sugar motor.",
+    "reference": "TUSC 10-10.5"
+  },
+  {
+    "id": "tripoli-safety-43",
+    "number": 43,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Definitions",
+    "prompt": "What is the age limit Tripoli recognizes for a certified solid propellant high power rocket motor user?",
+    "options": [
+      { "key": "a", "text": "21 years of age" },
+      { "key": "b", "text": "18 years of age" },
+      { "key": "c", "text": "There is no age limit" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "18 years of age.",
+    "reference": "TUSC 15 — Definition of Adult flier, High Power Rocket Flier"
+  },
+  {
+    "id": "tripoli-safety-44",
+    "number": 44,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Safe Distances",
+    "prompt": "What is the minimum safe distance for a non-complex H, I or J motor?",
+    "options": [
+      { "key": "a", "text": "50 ft (15m)" },
+      { "key": "b", "text": "100 ft (30m)" },
+      { "key": "c", "text": "200 ft (61m)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "100 ft / 30 m.",
+    "reference": "TUSC 13-17 Safe Distance Table"
+  },
+  {
+    "id": "tripoli-safety-45",
+    "number": 45,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Research Motors",
+    "prompt": "When may Research Motors that have been sold for a profit be used at a Tripoli Launch?",
+    "options": [
+      { "key": "a", "text": "When the motors are not transported outside the state of manufacture" },
+      { "key": "b", "text": "When the sale of motors is limited to certified users" },
+      { "key": "c", "text": "It is never permitted" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Never.",
+    "reference": "TUSC 10-6"
+  },
+  {
+    "id": "tripoli-safety-46",
+    "number": 46,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Research Motors",
+    "prompt": "Which of the following materials can be used for research motor cases?",
+    "options": [
+      { "key": "a", "text": "Metallic cases made of non-ferrous ductile metals such as 6061 aluminum alloy" },
+      { "key": "b", "text": "Metallic cases made of ferrous metals such as Steel" },
+      { "key": "c", "text": "Non-metallic cases made of PVC" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Non-ferrous ductile metals like 6061 aluminum.",
+    "reference": "TUSC 10-10"
+  },
+  {
+    "id": "tripoli-safety-47",
+    "number": 47,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Personal Conduct",
+    "prompt": "When is it permissible to consume alcohol when prepping or launching high power rockets?",
+    "options": [
+      { "key": "a", "text": "When the preparation is done the day before the launch" },
+      { "key": "b", "text": "If the blood alcohol level is below the \"impaired\" level" },
+      { "key": "c", "text": "It is never permitted" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Never.",
+    "reference": "TUSC 7-12"
+  },
+  {
+    "id": "tripoli-safety-48",
+    "number": 48,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Certifying Bodies",
+    "prompt": "Organizations that may certify high power rocket motors include:",
+    "options": [
+      { "key": "a", "text": "Tripoli Rocketry Association (TRA) and the National Association of Rocketry (NAR) only" },
+      { "key": "b", "text": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (BATFE)" },
+      { "key": "c", "text": "TRA, NAR, and the Canadian Association of Rocketry (CAR)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "NAR S&T, CAR MCC, and Tripoli TMT reciprocally recognize each other.",
+    "reference": "TUSC 15 — Definition of Certified Motor"
+  },
+  {
+    "id": "tripoli-safety-49",
+    "number": 49,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Ignition",
+    "prompt": "When can electronics that control energetics be powered on?",
+    "options": [
+      { "key": "a", "text": "Before closing the rocket ebay in your campsite" },
+      { "key": "b", "text": "After you have been through the rocket inspection" },
+      { "key": "c", "text": "After the rocket is vertical on the pad but before the motor igniter is installed" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "After the rocket is vertical on the pad but before the motor igniter is installed.",
+    "reference": "TUSC 7-8, 13-8, 13-9"
+  },
+  {
+    "id": "tripoli-safety-50",
+    "number": 50,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Recovery",
+    "prompt": "The maximum landing speed of a rocket is not to exceed ____?",
+    "options": [
+      { "key": "a", "text": "50 ft/s (15 m/s)" },
+      { "key": "b", "text": "35 ft/s (11 m/s)" },
+      { "key": "c", "text": "15 ft/s (4 m/s)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "35 ft/s (11 m/s).",
+    "reference": "TUSC 11-1"
+  },
+  {
+    "id": "tripoli-safety-51",
+    "number": 51,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Certification",
+    "prompt": "Who in Tripoli may certify a member Level 1 or Level 2?",
+    "options": [
+      { "key": "a", "text": "The prefect" },
+      { "key": "b", "text": "A TAP member" },
+      { "key": "c", "text": "A member of the Tripoli Board of Directors, the prefect, or a TAP member" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "BOD, prefect, or TAP member.",
+    "reference": "Tripoli certification procedures (tripoli.org/certification)"
+  },
+  {
+    "id": "tripoli-safety-52",
+    "number": 52,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Launch Area",
+    "prompt": "Who is allowed in the high-power launch area at a Tripoli launch?",
+    "options": [
+      { "key": "a", "text": "Any invited person" },
+      { "key": "b", "text": "Spectators" },
+      { "key": "c", "text": "Tripoli TMP or Jr L1 NAR Members and any Tripoli or NAR member 18 years old or older" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Tripoli TMP / Jr L1 NAR Members and any Tripoli or NAR member 18+.",
+    "reference": "TUSC 6-All"
+  },
+  {
+    "id": "tripoli-safety-53",
+    "number": 53,
+    "cert": "tripoli",
+    "section": "safety",
+    "topic": "Recovery",
+    "prompt": "When is electronically actuated recovery necessary?",
+    "options": [
+      { "key": "a", "text": "There is no requirement, it is up to the flier" },
+      { "key": "b", "text": "A high-powered rocket launched with an installed impulse greater than 2560 N-sec" },
+      { "key": "c", "text": "A high-powered rocket launched with an installed impulse greater than 5120 N-sec" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Required for installed impulse greater than 2560 N-s.",
+    "reference": "TUSC 11-6"
+  }
+]

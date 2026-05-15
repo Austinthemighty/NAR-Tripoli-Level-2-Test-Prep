@@ -1,0 +1,376 @@
+[
+  {
+    "id": "nar-A-1",
+    "number": 1,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "NFPA Codes",
+    "prompt": "Which of the following National Fire Protection Association (NFPA) standards provides a Code for High Power Rocketry?",
+    "options": [
+      { "key": "A", "text": "NFPA 1122" },
+      { "key": "B", "text": "NFPA 1124" },
+      { "key": "C", "text": "NFPA 1125" },
+      { "key": "D", "text": "NFPA 1127" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "NFPA 1127 is the Code for High Power Rocketry. NFPA 1122 covers Model Rocketry; NFPA 1124 covers Manufacture, Transportation, and Storage of Fireworks; NFPA 1125 covers Manufacture of Model and High Power Rocket Motors.",
+    "reference": "NFPA 1127"
+  },
+  {
+    "id": "nar-A-2",
+    "number": 2,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "FAA Regulations",
+    "prompt": "What part of the Federal Aviation Regulations govern rocket activity?",
+    "options": [
+      { "key": "A", "text": "Part 95" },
+      { "key": "B", "text": "Part 97" },
+      { "key": "C", "text": "Part 101" },
+      { "key": "D", "text": "Part 125" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rocket activity is codified in Part 101 — Moored Balloons, Kites, Amateur Rockets, Unmanned Free Balloons, and Certain Model Aircraft.",
+    "reference": "FAR Part 101"
+  },
+  {
+    "id": "nar-A-3",
+    "number": 3,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "FAA Classifications",
+    "prompt": "What is the maximum launch (flight-ready) weight allowable for a rocket which does not require an FAA Certificate of Waiver or Authorization (COA)?",
+    "options": [
+      { "key": "A", "text": "113 grams (4 ounces)" },
+      { "key": "B", "text": "125 grams (4.4 ounces)" },
+      { "key": "C", "text": "453 grams (1 pound)" },
+      { "key": "D", "text": "1,500 grams (53 ounces or 3.3 pounds)" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Per Part 101.22(5), flight-ready rockets weighing no more than 1,500 grams (53 oz or 3.3 lbs) are defined as Class 1-Model Rockets. Class 1 rockets do not require a COA.",
+    "reference": "FAR 101.22(5)"
+  },
+  {
+    "id": "nar-A-4",
+    "number": 4,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "FAA Classifications",
+    "prompt": "What is the maximum propellant weight allowable for a rocket which does not require an FAA Certificate of Waiver or Authorization (COA)?",
+    "options": [
+      { "key": "A", "text": "113 grams (4 ounces)" },
+      { "key": "B", "text": "125 grams (4.4 ounces)" },
+      { "key": "C", "text": "453 grams (1 pound)" },
+      { "key": "D", "text": "1,500 grams (53 ounces or 3.3 pounds)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Per Part 101.22(1), rockets using no more than 125 g (4.4 oz) are defined as Class 1-Model Rockets. Class 1 rockets do not require a COA.",
+    "reference": "FAR 101.22(1)"
+  },
+  {
+    "id": "nar-A-5",
+    "number": 5,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "User Certification",
+    "prompt": "Which of the following is a requirement for High Power Rocket Motor User Certification (excludes NAR Jr. HPR Participation Program)?",
+    "options": [
+      { "key": "A", "text": "The ability to understand written English instructions" },
+      { "key": "B", "text": "A minimum of 18 years of age" },
+      { "key": "C", "text": "A citizen of the United States of America" },
+      { "key": "D", "text": "No felony convictions" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A minimum of 18 years of age.",
+    "reference": "NFPA 1127, 5.4.1(1)"
+  },
+  {
+    "id": "nar-A-6",
+    "number": 6,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Total Impulse Limits",
+    "prompt": "What is the maximum total impulse permitted in a High Power Rocket per NFPA 1127?",
+    "options": [
+      { "key": "A", "text": "20,480 Newton-seconds" },
+      { "key": "B", "text": "40,960 Newton-seconds" },
+      { "key": "C", "text": "81,920 Newton-seconds" },
+      { "key": "D", "text": "There is no impulse limit provided the altitude requirements listed in the FAA Certificate of Waiver or Authorization (COA) are not exceeded" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "40,960 Newton-seconds.",
+    "reference": "NFPA 1127, 4.9.2"
+  },
+  {
+    "id": "nar-A-7",
+    "number": 7,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Weight Limits",
+    "prompt": "What is the maximum allowable weight for a High Power Rocket permitted per NFPA 1127?",
+    "options": [
+      { "key": "A", "text": "100 pounds" },
+      { "key": "B", "text": "400 pounds" },
+      { "key": "C", "text": "3,069 pounds" },
+      { "key": "D", "text": "There is no limit provided the rocket weighs less than 1/3 of the average certified thrust of the motors intended to be ignited at launch" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "There is no limit provided the rocket weighs less than 1/3 of the average certified thrust of the motors intended to ignite at launch.",
+    "reference": "NFPA 1127, 4.9.1"
+  },
+  {
+    "id": "nar-A-8",
+    "number": 8,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "User Certification",
+    "prompt": "What is the minimum age for User Certification (excludes NAR Jr. HPR Participation Program)?",
+    "options": [
+      { "key": "A", "text": "16 years old" },
+      { "key": "B", "text": "18 years old" },
+      { "key": "C", "text": "21 years old" },
+      { "key": "D", "text": "25 years old" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "18 years old.",
+    "reference": "NFPA 1127, 5.4.1(1)"
+  },
+  {
+    "id": "nar-A-9",
+    "number": 9,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "Which of the following characteristics does NOT meet the definition of a High Power Rocket motor?",
+    "options": [
+      { "key": "A", "text": "Total impulse is more than 160 Newton-seconds" },
+      { "key": "B", "text": "The motor uses a \"composite\" propellant" },
+      { "key": "C", "text": "Average thrust greater than 80 Newtons" },
+      { "key": "D", "text": "Propellant weight greater than 125 grams" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Propellant type is not a defining characteristic.",
+    "reference": "NFPA 1127, 3.3.15.1 and 3.3.15.3"
+  },
+  {
+    "id": "nar-A-10",
+    "number": 10,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "Which of the following is (are) true of a complex High Power Rocket per NFPA 1127?",
+    "options": [
+      { "key": "A", "text": "The rocket is multi-staged or propelled by a cluster of rocket motors" },
+      { "key": "B", "text": "The rocket contains electrical or electronic devices intended for control of the rocket's functions (e.g. staging, recovery initiation, etc.)" },
+      { "key": "C", "text": "The rocket uses other than parachute or streamer recovery (e.g. helicopter, glide recovery, etc.)" },
+      { "key": "D", "text": "Both \"A\" and \"B\" above" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multi-staged or propelled by a cluster of rocket motors.",
+    "reference": "NFPA 1127, 3.3.13.1.1"
+  },
+  {
+    "id": "nar-A-11",
+    "number": 11,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "According to NFPA 1127, a launch site is defined as containing areas for which of the following activities?",
+    "options": [
+      { "key": "A", "text": "Launching" },
+      { "key": "B", "text": "Recovery" },
+      { "key": "C", "text": "Parking" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above.",
+    "reference": "NFPA 1127, 3.3.9"
+  },
+  {
+    "id": "nar-A-12",
+    "number": 12,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Compliance",
+    "prompt": "A person shall fly a High Power Rocket only in compliance with:",
+    "options": [
+      { "key": "A", "text": "NFPA 1127" },
+      { "key": "B", "text": "Federal Aviation Administration Regulations, Part 101" },
+      { "key": "C", "text": "Federal, state, and local laws, rules, regulations, statutes, and ordinances" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above.",
+    "reference": "NFPA 1127, 4.3"
+  },
+  {
+    "id": "nar-A-13",
+    "number": 13,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "According to NFPA 1127, which of the following statements is always true concerning the definition of a hybrid rocket motor?",
+    "options": [
+      { "key": "A", "text": "The fuel component is composed of either paper or plastic" },
+      { "key": "B", "text": "The fuel is in a different physical state (solid, liquid, or gaseous) than the oxidizer" },
+      { "key": "C", "text": "The oxidizer component is nitrous oxide" },
+      { "key": "D", "text": "Both \"A\" and \"C\" above" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The fuel and oxidizer are in different physical states.",
+    "reference": "NFPA 1127, 3.3.15.2"
+  },
+  {
+    "id": "nar-A-14",
+    "number": 14,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Cloud / Visibility",
+    "prompt": "You're attending a launch that has a thin (but see-through) cloud layer at ~3,000 feet and clear blue skies above it. Is it okay to \"punch\" through this cloud layer with a High Power Rocket if there's a Certificate of Waiver or Authorization (COA) granting Class 2 flights up to 6,000 feet?",
+    "options": [
+      { "key": "A", "text": "Yes, since there is an active COA, High Power Rockets can be flown up to the 6,000 foot altitude limit" },
+      { "key": "B", "text": "No, flights into any clouds are prohibited unless specifically waived by the FAA" },
+      { "key": "C", "text": "Yes, as long as the cloud layer can barely be seen through and the RSO allows it" },
+      { "key": "D", "text": "Both \"A\" and \"C\" above" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Part 101.25 specifically states that you must not operate Class 2-High Power Rockets into any cloud. Flights into clouds are not permitted regardless of opacity.",
+    "reference": "FAR Part 101.25"
+  },
+  {
+    "id": "nar-A-15",
+    "number": 15,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Cloud / Visibility",
+    "prompt": "You are attending a launch where the sky is almost completely obscured by clouds at 5,000 feet except for a ~1,000 foot wide \"hole\" directly over the launch pads. Is it okay to launch a High Power Rocket to 6,000 feet if there's a Certificate of Waiver or Authorization (COA) granting Class 2 flights up to 8,000 feet?",
+    "options": [
+      { "key": "A", "text": "Yes, as long as the High Power Rocket stays within the cloud opening" },
+      { "key": "B", "text": "Yes, as long as the RSO approves the launch and the COA is active" },
+      { "key": "C", "text": "No, the five-tenths coverage and horizontal visibility limitations apply" },
+      { "key": "D", "text": "Both \"A\" and \"B\" above" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Part 101.25 prohibits operation at any altitude where more than 50% of the sky is cloud-covered or where horizontal visibility is less than five miles, unless the FAA has waived these. The hole must be at least 10 miles wide for compliance.",
+    "reference": "FAR Part 101.25"
+  },
+  {
+    "id": "nar-A-16",
+    "number": 16,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "According to NFPA 1127, which one of the following statements is true concerning the definition of a High Power Rocket motor?",
+    "options": [
+      { "key": "A", "text": "Total impulse is less than 81,920 Newton-seconds" },
+      { "key": "B", "text": "The total impulse is more than 160 Newton-seconds" },
+      { "key": "C", "text": "The motor must use either fiberglass or metal case materials" },
+      { "key": "D", "text": "Both \"A\" and \"B\" above" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Total impulse more than 160 N-s is one of the qualifying conditions for a high-power motor.",
+    "reference": "NFPA 1127, 3.3.15.1 and 3.3.15.3"
+  },
+  {
+    "id": "nar-A-17",
+    "number": 17,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "Which of the following (hypothetical) rocket motors is NOT a High Power Rocket motor?",
+    "options": [
+      { "key": "A", "text": "An F90 with 40 grams of propellant" },
+      { "key": "B", "text": "An H60 with 62 grams of propellant" },
+      { "key": "C", "text": "A G35 with 66 grams of propellant" },
+      { "key": "D", "text": "All of the above are High Power Rocket motors" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A HPR motor must have more than 160 N-s total impulse, OR avg thrust > 80 N, OR more than 125 g of propellant. The F90 has >80 N avg thrust; the H60 has >160 N-s; the G35 does not exceed any threshold.",
+    "reference": "NFPA 1125"
+  },
+  {
+    "id": "nar-A-18",
+    "number": 18,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "FAA Authorization",
+    "prompt": "What information does FAA FAR 101.29(a) require you to provide when filing for FAA Launch Authorization?",
+    "options": [
+      { "key": "A", "text": "Estimated number of rockets and type of propulsion (liquid or solid), fuel(s) and oxidizer(s)" },
+      { "key": "B", "text": "Description of the launcher(s) planned to be used, including any airborne platform(s) and description of recovery system" },
+      { "key": "C", "text": "Highest altitude, above ground level, expected to be reached, launch site latitude, longitude, and elevation, and any additional safety procedures that will be followed" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above are required.",
+    "reference": "CFR Part 101.29(a)"
+  },
+  {
+    "id": "nar-A-19",
+    "number": 19,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Cloud / Visibility",
+    "prompt": "Which of the following are operating limitations for Class 2 High Power Rockets per the FAA's FAR 101 Regulations?",
+    "options": [
+      { "key": "A", "text": "At any altitude where clouds or obscuring phenomena of more than five-tenths coverage prevails" },
+      { "key": "B", "text": "At any altitude where the horizontal visibility is less than five miles" },
+      { "key": "C", "text": "Into any cloud" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above are operating limitations under FAR Part 101.25.",
+    "reference": "FAR Part 101.25"
+  },
+  {
+    "id": "nar-A-20",
+    "number": 20,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Launch Requirements",
+    "prompt": "According to NFPA 1127, a High Power Rocket shall only be launched if:",
+    "options": [
+      { "key": "A", "text": "It contains any combination of motors having 40,960 Newton-seconds of total impulse or less" },
+      { "key": "B", "text": "It contains a recovery system that is designed to return all parts to the ground intact and at a landing speed at which the rocket does not present a hazard" },
+      { "key": "C", "text": "It utilizes an electronically actuated recovery system as either a primary or backup deployment method if the installed total impulse is greater than 2560 Newton-seconds" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above are required.",
+    "reference": "NFPA 1127, 4.9.2, 4.10.1, 4.10.2"
+  },
+  {
+    "id": "nar-A-21",
+    "number": 21,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Motor Alteration",
+    "prompt": "According to NFPA 1127, when is it acceptable to alter a High Power Rocket motor?",
+    "options": [
+      { "key": "A", "text": "When the results of a simulation show that a different delay time is needed for optimal deployment" },
+      { "key": "B", "text": "When the motor manufacturer allows it" },
+      { "key": "C", "text": "It is never acceptable to modify a High Power Rocket motor" },
+      { "key": "D", "text": "Both \"A\" and \"B\"" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When the motor manufacturer allows it. Motor delay times should only be adjusted using procedures provided by the motor manufacturer.",
+    "reference": "NFPA 1127, 4.5.2 and 4.5.3"
+  },
+  {
+    "id": "nar-A-22",
+    "number": 22,
+    "cert": "nar",
+    "section": "regulations",
+    "topic": "Definitions",
+    "prompt": "According to NFPA 1127, the definition of a High Power Rocket is a rocket vehicle that:",
+    "options": [
+      { "key": "A", "text": "Is propelled by one or more High Power Rocket motors" },
+      { "key": "B", "text": "Is propelled by a combination of model rocket motors having an installed total impulse of more than 320 Newton-seconds or a combination of model rocket motors having more than a total of 125 grams (4.4 ounces) of propellant weight" },
+      { "key": "C", "text": "Weighs more than 1500 grams (53 ounces or 3.3 pounds) with motor(s) installed" },
+      { "key": "D", "text": "All of the above" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "All of the above.",
+    "reference": "NFPA 1127, 3.3.13.1"
+  }
+]

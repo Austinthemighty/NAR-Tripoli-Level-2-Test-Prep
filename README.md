@@ -26,13 +26,38 @@ npm run build             # produces ./out — the static site
 
 Build first: `npm run build`. The site is the contents of `out/`.
 
-### Cloudflare Pages
+### Cloudflare Pages — automated via GitHub Actions (recommended)
+
+[.github/workflows/deploy.yml](.github/workflows/deploy.yml) builds and deploys on every push to `main`, and posts a preview URL on every pull request.
+
+**One-time setup:**
+
+1. **Create the Cloudflare Pages project** (only needed once)
+   ```sh
+   npx wrangler pages project create nar-tripoli-l2 --production-branch=main
+   ```
+   Or in the Cloudflare dashboard → Workers & Pages → Create application → Pages → Connect to Git (or upload assets). The project name must match `CF_PROJECT_NAME` in the workflow (`nar-tripoli-l2`).
+
+2. **Create a scoped API token**
+   - https://dash.cloudflare.com/profile/api-tokens → Create Token → Custom token
+   - Permissions: **Account → Cloudflare Pages → Edit**
+   - Account Resources: include your account
+   - Copy the token.
+
+3. **Find your Account ID**
+   - https://dash.cloudflare.com → right sidebar of any zone, or `npx wrangler whoami`.
+
+4. **Add GitHub repository secrets** (Settings → Secrets and variables → Actions → New repository secret):
+   - `CLOUDFLARE_API_TOKEN` — the token from step 2
+   - `CLOUDFLARE_ACCOUNT_ID` — the ID from step 3
+
+That's it. Push to `main` and the workflow deploys to production. Open a PR and you'll get a preview URL commented on the PR.
+
+### Cloudflare Pages — manual deploy
 
 ```sh
 npx wrangler pages deploy out --project-name nar-tripoli-l2
 ```
-
-Or connect the repo in the CF dashboard with build command `npm run build` and output directory `out`. TLS is automatic.
 
 ### Netlify
 

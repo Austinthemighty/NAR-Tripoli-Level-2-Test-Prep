@@ -4,12 +4,14 @@ import { useEffect, useMemo, useState } from "react";
 import { Cert, CERT_META } from "@/lib/questions";
 import { buildPracticeExam, gradeExam, PracticeExam as ExamData, ExamResult } from "@/lib/quiz-engine";
 import { recordExam } from "@/lib/storage";
+import Quiz from "./Quiz";
+import Flashcard from "./Flashcard";
 
 interface Props {
   cert: Cert;
 }
 
-type Mode = "intro" | "taking" | "result";
+type Mode = "intro" | "taking" | "result" | "review-quiz" | "review-flashcards";
 
 export default function PracticeExam({ cert }: Props) {
   const meta = CERT_META[cert];
@@ -219,7 +221,7 @@ export default function PracticeExam({ cert }: Props) {
               </div>
             ))}
           </div>
-          <div className="mt-5 flex gap-2">
+          <div className="mt-5 flex flex-wrap gap-2">
             <button
               type="button"
               onClick={start}
@@ -227,13 +229,31 @@ export default function PracticeExam({ cert }: Props) {
             >
               Take another exam
             </button>
+            {result.missed.length > 0 ? (
+              <>
+                <button
+                  type="button"
+                  onClick={() => setMode("review-quiz")}
+                  className="rounded bg-ink-900 px-4 py-2 text-sm font-semibold text-white hover:bg-ink-800"
+                >
+                  Study missed questions ({result.missed.length}) →
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setMode("review-flashcards")}
+                  className="rounded border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-800 hover:bg-ink-100"
+                >
+                  Flashcards on missed
+                </button>
+              </>
+            ) : null}
           </div>
         </div>
 
         {result.missed.length > 0 ? (
           <section>
             <h3 className="mb-3 text-lg font-semibold text-ink-900">
-              Review: {result.missed.length} missed question
+              Read-through review: {result.missed.length} missed question
               {result.missed.length === 1 ? "" : "s"}
             </h3>
             <ol className="space-y-3">
@@ -272,6 +292,49 @@ export default function PracticeExam({ cert }: Props) {
             </ol>
           </section>
         ) : null}
+      </div>
+    );
+  }
+
+  if ((mode === "review-quiz" || mode === "review-flashcards") && result) {
+    const missedQuestions = result.missed.map((m) => m.question);
+    return (
+      <div className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-ink-200 bg-white p-4 shadow-sm">
+          <div>
+            <p className="text-sm font-semibold text-ink-900">
+              Studying {missedQuestions.length} missed question
+              {missedQuestions.length === 1 ? "" : "s"}
+            </p>
+            <p className="text-xs text-ink-600">
+              From your last exam — score {result.score}/{result.total} (
+              {result.percent.toFixed(0)}%)
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() =>
+                setMode(mode === "review-quiz" ? "review-flashcards" : "review-quiz")
+              }
+              className="rounded border border-ink-200 bg-white px-3 py-1.5 text-xs font-medium text-ink-800 hover:bg-ink-100"
+            >
+              Switch to {mode === "review-quiz" ? "flashcards" : "quiz"}
+            </button>
+            <button
+              type="button"
+              onClick={() => setMode("result")}
+              className="rounded bg-ink-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-ink-800"
+            >
+              ← Back to results
+            </button>
+          </div>
+        </div>
+        {mode === "review-quiz" ? (
+          <Quiz cert={cert} questions={missedQuestions} title="Missed questions" />
+        ) : (
+          <Flashcard cert={cert} questions={missedQuestions} />
+        )}
       </div>
     );
   }
